@@ -30,10 +30,10 @@ function Header() {
             className="h-10 w-10 object-cover"
           />
           <div className="flex flex-col leading-tight">
-            <span className="font-bold text-xl tracking-tight">
+            <span className="font-bold md:text-lg text-base tracking-tight">
               Data Capital Analytics
             </span>
-            <span className="text-[0.8rem] text-slate-500 uppercase tracking-[0.2em]">
+            <span className="md:text-[0.8rem] text-[0.7rem] text-slate-500 uppercase tracking-[0.2em]">
               Facultad de Ingeniería - UNAM
             </span>
           </div>
