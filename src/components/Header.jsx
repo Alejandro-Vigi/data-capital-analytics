@@ -16,7 +16,7 @@ function Header() {
   const cerrarMenu = () => setMenuAbierto(false);
 
   return (
-    <header className="top-0 border-b border-slate-200 bg-white/90 backdrop-blur">
+    <header className="sticky top-0 z-20 border-b border-slate-200 bg-white/90 backdrop-blur">
         <div className="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between md:justify-evenly">
         {/* Logo / Marca */}
         <Link
