@@ -107,7 +107,7 @@ function Footer() {
       </div>
 
       {/* Copyright */}
-      <p className="text-center text-xs text-slate-500 py-2 mb-4 md:mb-0">
+      <p className="text-center text-xs text-slate-500 py-2 mb-6 md:mb-4">
         © {new Date().getFullYear()} Data Capital Analytics · Todos los derechos reservados.
       </p>
     </footer>
