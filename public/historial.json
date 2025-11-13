@@ -1,0 +1,62 @@
+{
+  "ultima_actualizacion": "2025-11-13T18:00:00",
+  "empresas": [
+    {
+      "ticker": "AAPL",
+      "nombre": "Apple Inc.",
+      "historico": [
+        {
+          "fecha": "2025-11-10",
+          "precio_real": 214.5,
+          "precio_predicho": 216.2,
+          "error_pct": 0.79,
+          "acierto": true
+        },
+        {
+          "fecha": "2025-11-11",
+          "precio_real": 215.1,
+          "precio_predicho": 215.4,
+          "error_pct": 0.14,
+          "acierto": true
+        },
+        {
+          "fecha": "2025-11-12",
+          "precio_real": 219.8,
+          "precio_predicho": 217.0,
+          "error_pct": 1.28,
+          "acierto": false
+        }
+      ],
+      "prediccion_manana": {
+        "fecha_prediccion": "2025-11-14",
+        "precio_predicho": 221.6,
+        "tendencia": "sube"
+      }
+    },
+    {
+      "ticker": "MSFT",
+      "nombre": "Microsoft Corporation",
+      "historico": [
+        {
+          "fecha": "2025-11-10",
+          "precio_real": 408.1,
+          "precio_predicho": 410.5,
+          "error_pct": 0.59,
+          "acierto": true
+        },
+        {
+          "fecha": "2025-11-11",
+          "precio_real": 412.3,
+          "precio_predicho": 416.0,
+          "error_pct": 0.89,
+          "acierto": false
+        }
+      ],
+      "prediccion_manana": {
+        "fecha_prediccion": "2025-11-14",
+        "precio_predicho": 414.8,
+        "tendencia": "baja"
+      }
+    }
+  ]
+}
