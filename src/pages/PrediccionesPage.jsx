@@ -29,7 +29,7 @@ function PrediccionesPage() {
   }, []);
 
   if (!datos) {
-    return <p>Cargando datos de predicción...</p>;
+    return <p className="text-center tx-lg pt-10">Cargando datos de predicción...</p>;
   }
 
   const empresa =
