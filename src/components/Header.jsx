@@ -7,7 +7,7 @@ function Header() {
 
   const getNavClasses = (isActive) =>
     [
-      "text-sm font-medium transition-colors",
+      "md:text-lg font-bold transition-colors",
       isActive
         ? "text-blue-600"
         : "text-slate-700 hover:text-blue-600",
@@ -16,8 +16,8 @@ function Header() {
   const cerrarMenu = () => setMenuAbierto(false);
 
   return (
-    <header className="sticky top-0 z-20 border-b border-slate-200 bg-white/90 backdrop-blur">
-        <div className="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between md:justify-evenly">
+    <header className="top-0 border-b border-slate-200 bg-white/90 backdrop-blur">
+        <div className="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between md:justify-evenly">
         {/* Logo / Marca */}
         <Link
           to="/"
@@ -30,11 +30,11 @@ function Header() {
             className="h-10 w-10 object-cover"
           />
           <div className="flex flex-col leading-tight">
-            <span className="font-bold text-lg tracking-tight">
+            <span className="font-bold text-xl tracking-tight">
               Data Capital Analytics
             </span>
-            <span className="text-[0.7rem] text-slate-500 uppercase tracking-[0.2em]">
-              Facultad de Ingeniería · UNAM
+            <span className="text-[0.8rem] text-slate-500 uppercase tracking-[0.2em]">
+              Facultad de Ingeniería - UNAM
             </span>
           </div>
         </Link>
@@ -57,6 +57,7 @@ function Header() {
           <NavLink
             to="/metodologia"
             className={({ isActive }) => getNavClasses(isActive)}
+
           >
             Metodología
           </NavLink>
@@ -117,7 +118,7 @@ function Header() {
                 end
                 className={({ isActive }) =>
                   getNavClasses(isActive) +
-                  " block px-4 py-2"
+                  " block text-center px-4 py-2 text-xl"
                 }
                 onClick={cerrarMenu}
               >
@@ -129,7 +130,7 @@ function Header() {
                 to="/predicciones"
                 className={({ isActive }) =>
                   getNavClasses(isActive) +
-                  " block px-4 py-2"
+                  " block text-center px-4 py-2 text-xl"
                 }
                 onClick={cerrarMenu}
               >
@@ -141,7 +142,7 @@ function Header() {
                 to="/metodologia"
                 className={({ isActive }) =>
                   getNavClasses(isActive) +
-                  " block px-4 py-2"
+                  " block text-center px-4 py-2 text-xl"
                 }
                 onClick={cerrarMenu}
               >
@@ -153,7 +154,7 @@ function Header() {
                 to="/equipo"
                 className={({ isActive }) =>
                   getNavClasses(isActive) +
-                  " block px-4 py-2"
+                  " block text-center px-4 py-2 text-xl"
                 }
                 onClick={cerrarMenu}
               >
