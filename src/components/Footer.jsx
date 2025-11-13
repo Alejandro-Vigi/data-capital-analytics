@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 function Footer() {
   return (
     <footer className="border-t border-slate-300 bg-white">
-      <div className="max-w-6xl mx-auto px-6 pt-3 pb-4 flex flex-col md:flex-row md:justify-between md:items-center gap-6 text-sm text-slate-600">
+      <div className="max-w-6xl mx-auto px-6 pt-4 pb-3 flex flex-col md:flex-row md:justify-between md:items-center gap-6 text-sm text-slate-600">
 
         {/* Marca y descripción */}
         <div className="flex flex-col items-center md:items-start text-center md:text-left max-w-md mx-auto md:mx-0">
@@ -107,7 +107,7 @@ function Footer() {
       </div>
 
       {/* Copyright */}
-      <p className="text-center text-xs text-slate-500 py-2 mb-6 md:mb-4">
+      <p className="text-center text-xs text-slate-500 py-2 mb-15 md:mb-4">
         © {new Date().getFullYear()} Data Capital Analytics · Todos los derechos reservados.
       </p>
     </footer>
