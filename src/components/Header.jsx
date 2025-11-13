@@ -1,5 +1,6 @@
 import { Link, NavLink } from "react-router-dom";
 import { useState } from "react";
+import logo from "../assets/logo.png";
 
 function Header() {
   const [menuAbierto, setMenuAbierto] = useState(false);
@@ -16,15 +17,26 @@ function Header() {
 
   return (
     <header className="sticky top-0 z-20 border-b border-slate-200 bg-white/90 backdrop-blur">
-      <div className="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between md:justify-evenly">
+        <div className="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between md:justify-evenly">
         {/* Logo / Marca */}
-        <Link to="/" className="flex flex-col leading-tight" onClick={cerrarMenu}>
-          <span className="font-bold text-lg tracking-tight">
-            Data Capital Analytics
-          </span>
-          <span className="text-[0.7rem] text-slate-500 uppercase tracking-[0.2em]">
-            Facultad de Ingeniería - UNAM
-          </span>
+        <Link
+          to="/"
+          className="flex items-center gap-3"
+          onClick={cerrarMenu}
+        >
+          <img
+            src={logo}
+            alt="Data Capital Analytics"
+            className="h-10 w-10 object-cover"
+          />
+          <div className="flex flex-col leading-tight">
+            <span className="font-bold text-lg tracking-tight">
+              Data Capital Analytics
+            </span>
+            <span className="text-[0.7rem] text-slate-500 uppercase tracking-[0.2em]">
+              Facultad de Ingeniería · UNAM
+            </span>
+          </div>
         </Link>
 
         {/* Navegación desktop */}
