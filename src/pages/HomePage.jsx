@@ -5,7 +5,7 @@ function HomePage() {
     <section className="grid md:grid-cols-[1.1fr,1fr] md:gap-5 items-center py-10">
       {/* Columna izquierda: texto principal */}
       <div>
-        <p className="text-[1rem] uppercase font-black tracking-[0.2em] text-indigo-500 mb-2">
+        <p className="text-[0.7rem] md:text-[1rem] uppercase font-black tracking-[0.2em] text-indigo-500 mb-2">
           Predicción diaria · 10 empresas tecnológicas
         </p>
 
