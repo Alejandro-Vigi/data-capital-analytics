@@ -2,51 +2,121 @@ import { Link } from "react-router-dom";
 
 function HomePage() {
   return (
-    <section className="grid md:grid-cols-[1.2fr,1fr] gap-8 items-center">
+    <section className="grid md:grid-cols-[1.1fr,1fr] md:gap-5 items-center py-10">
+      {/* Columna izquierda: texto principal */}
       <div>
-        <p className="text-[0.75rem] uppercase tracking-[0.2em] text-indigo-500 mb-2">
+        <p className="text-[1rem] uppercase font-black tracking-[0.2em] text-indigo-500 mb-2">
           Predicción diaria · 10 empresas tecnológicas
         </p>
-        <h1 className="text-3xl md:text-4xl font-extrabold text-slate-900 mb-3">
-          Analiza si conviene invertir con predicciones diarias y
-          autoevaluación del modelo.
-        </h1>
-        <p className="text-slate-600 mb-6 text-sm md:text-base">
-          Data Capital Analytics utiliza modelos en Python para estimar el
-          comportamiento diario de las principales acciones tecnológicas.
-          Comparamos nuestras predicciones con los valores reales del
-          mercado y mostramos el historial de errores para cada empresa.
-        </p>
 
-        <div className="flex flex-wrap gap-3 items-center">
-          <Link
-            to="/predicciones"
-            className="px-4 py-2 rounded-full bg-blue-600 text-white text-sm font-semibold hover:bg-blue-700 transition-colors"
-          >
-            Ver predicciones de hoy
-          </Link>
-          <Link
-            to="/metodologia"
-            className="px-4 py-2 rounded-full border border-slate-300 text-sm text-slate-800 hover:bg-slate-100 transition-colors"
-          >
-            Ver metodología
-          </Link>
+        <h1 className="text-3xl md:text-4xl font-extrabold text-slate-900 mb-4 leading-tight">
+          Analiza si conviene invertir con predicciones diarias basadas en datos reales.
+        </h1>
+
+        <p className="text-slate-600 mb-2 text-base">
+          Data Capital Analytics es una plataforma que une ciencia de datos con una interfaz web moderna para ayudarte a entender cómo se comportan las acciones tecnológicas día a día.
+          Tomamos información real del mercado, la procesamos con modelos construidos en Python y generamos proyecciones que comparamos contra lo que realmente sucedió. Todo se acumula en un historial que muestra, sin adornos, si el modelo está mejorando, fallando o afinándose con el tiempo.
+          <br /><br />
+          No adivinamos. No especulamos.
+          Analizamos, proyectamos y validamos.
+        </p>
+      </div>
+
+      {/* 👉 Columna derecha (botones + texto + imagen) */}
+      <div className="flex justify-center items-center md:gap-20 mb-5 mt-10 md:mt-0">
+        {/* Bloque: botones + texto */}
+        <div className="flex flex-col">
+          <div className="flex justify-center gap-5">
+            <Link
+              to="/predicciones"
+              className="px-5 py-2.5 w-48 text-center rounded-full bg-blue-600 text-white text-sm font-semibold hover:bg-blue-700 transition-colors shadow-sm"
+            >
+              Ver predicciones de hoy
+            </Link>
+
+            <Link
+              to="/metodologia"
+              className="px-5 py-2.5 w-48 text-center rounded-full border border-slate-300 text-sm text-slate-800 hover:bg-slate-100 transition-colors"
+            >
+              Ver metodología
+            </Link>
+          </div>
+
+          <p className="mt-3 text-xs text-slate-500 text-center mb-6">
+            Actualizamos diariamente el historial y los valores <br />
+            reales del mercado para mantener el modelo siempre al día.
+          </p>
+        </div>
+
+        {/* Imagen de contexto */}
+        <div className="hidden md:block">
+          <img
+            src="/hero-finance.webp"
+            alt="Panel de análisis financiero y datos de mercado"
+            className="w-full max-w-sm mx-auto rounded-2xl shadow-md object-cover"
+          />
         </div>
       </div>
 
-      <div className="rounded-2xl border border-slate-200 p-6 bg-linear-to-b from-indigo-50/70 to-emerald-50/70 shadow-sm">
-        <h2 className="text-sm font-semibold text-slate-900 mb-2">
-          ¿Qué ofrece Data Capital Analytics?
-        </h2>
-        <ul className="text-sm text-slate-600 space-y-2 list-disc list-inside">
-          <li>
-            Predicción diaria del precio de cierre para 10 empresas
-            tecnológicas clave.
-          </li>
-          <li>Comparativa entre predicción y valor real del mercado.</li>
-          <li>Historial de errores y porcentaje de aciertos por empresa.</li>
-          <li>Interfaz web en React con visualizaciones interactivas.</li>
-        </ul>
+      {/* Tarjeta inferior */}
+      <div className="space-y-4 mt-4">
+        <div className="rounded-2xl border border-slate-200 p-6 bg-linear-to-b from-indigo-50/70 to-emerald-50/70 shadow-sm">
+          <h2 className="text-sm font-semibold text-slate-900 mb-2">
+            ¿Qué ofrece Data Capital Analytics?
+          </h2>
+
+          <ul className="text-sm text-justify text-slate-600 space-y-2 list-disc list-inside">
+            <li>
+              Predicción diaria del precio de cierre para 10 empresas tecnológicas líderes, 
+              generada con modelos en Python que se recalibran automáticamente con datos reales 
+              del mercado.
+            </li>
+
+            <li>
+              Comparativa inmediata entre la proyección del modelo y el valor real registrado 
+              cada jornada, permitiendo visualizar en qué momentos el modelo acierta, 
+              dónde se desvía y cómo evoluciona su desempeño.
+            </li>
+
+            <li>
+              Historial completo de errores, métricas de precisión, tendencias y análisis 
+              longitudinal por empresa, ofreciendo una visión profunda sobre la estabilidad 
+              y comportamiento del modelo a lo largo del tiempo.
+            </li>
+
+            <li>
+              Panel de análisis interactivo construido en React, diseñado para explorar señales, 
+              examinar resultados en detalle, identificar patrones relevantes y compartir 
+              observaciones con tu equipo de forma clara y rápida.
+            </li>
+
+            <li>
+              Consolidación automática de valores reales del mercado cada día hábil, manteniendo 
+              actualizado el registro histórico para evaluar el rendimiento del modelo con datos 
+              recientes y comparables.
+            </li>
+
+            <li>
+              Metodología transparente que detalla cómo se genera cada predicción, qué variables 
+              intervienen en el modelo y cómo se valida su comportamiento frente a datos reales.
+            </li>
+          </ul>
+
+          <div className="mt-4 flex flex-wrap gap-2 text-[0.7rem] text-slate-500 justify-center md:justify-start">
+            <span className="px-2 py-1 rounded-full border border-slate-200 bg-white/70">
+              Frecuencia: Actualización diaria.
+            </span>
+            <span className="px-2 py-1 rounded-full border border-slate-200 bg-white/70">
+              Cobertura: 10 empresas tecnológicas globales.
+            </span>
+            <span className="px-2 py-1 rounded-full border border-slate-200 bg-white/70">
+              Método: Modelos predictivos en Python.
+            </span>
+            <span className="px-2 py-1 rounded-full border border-slate-200 bg-white/70">
+              Enfoque: Evaluación continua del desempeño.
+            </span>
+          </div>
+        </div>
       </div>
     </section>
   );
