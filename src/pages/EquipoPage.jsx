@@ -80,7 +80,7 @@ function EquipoPage() {
       rol: "Visualización y frontend",
       descripcion:
         "Implementa la interfaz en React y las visualizaciones interactivas del dashboard.",
-      avatar: "/avatars/avatar-1.webp",
+      avatar: "/avatars/avatar.webp",
       redes: {
         linkedin: "https://www.linkedin.com/",
         github: "https://github.com",
@@ -96,7 +96,7 @@ function EquipoPage() {
       rol: "Automatización y despliegue",
       descripcion:
         "Configura la ejecución diaria del modelo y el despliegue en GitHub/Netlify.",
-      avatar: "/avatars/avatar-2.webp",
+      avatar: "/avatars/avatar.webp",
       redes: {
         linkedin: null,
         github: "https://github.com",
@@ -112,7 +112,7 @@ function EquipoPage() {
       rol: "Automatización y despliegue",
       descripcion:
         "Configura la ejecución diaria del modelo y el despliegue en GitHub/Netlify.",
-      avatar: "/avatars/avatar-3.webp",
+      avatar: "/avatars/avatar.webp",
       redes: {
         linkedin: null,
         github: null,
@@ -128,7 +128,7 @@ function EquipoPage() {
       rol: "Automatización y despliegue",
       descripcion:
         "Configura la ejecución diaria del modelo y el despliegue en GitHub/Netlify.",
-      avatar: "/avatars/avatar-4.webp",
+      avatar: "/avatars/avatar.webp",
       redes: {
         linkedin: null,
         github: null,
