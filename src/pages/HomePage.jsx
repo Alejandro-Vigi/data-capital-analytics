@@ -40,7 +40,7 @@ function HomePage() {
                 to="/predicciones"
                 className="px-5 py-2.5 w-full md:w-48 text-center rounded-full bg-blue-600 text-white text-sm font-semibold hover:bg-blue-700 transition-colors shadow-sm"
               >
-                Ver predicciones de hoy
+                Ver predicción de hoy
               </Link>
 
               <Link
