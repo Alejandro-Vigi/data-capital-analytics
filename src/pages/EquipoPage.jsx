@@ -98,7 +98,7 @@ function EquipoPage() {
         "Configura la ejecución diaria del modelo y el despliegue en GitHub/Netlify.",
       avatar: "/avatars/avatar.webp",
       redes: {
-        linkedin: null,
+        linkedin: "http://www.linkedin.com/in/jonathan-reyes-ramírez-37aa69354",
         github: null,
         whatsapp: null,
         correo: null,
