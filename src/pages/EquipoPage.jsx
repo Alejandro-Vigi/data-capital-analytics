@@ -82,10 +82,10 @@ function EquipoPage() {
         "Implementa la interfaz en React y las visualizaciones interactivas del dashboard.",
       avatar: "/avatars/avatar.webp",
       redes: {
-        linkedin: "https://www.linkedin.com/",
-        github: "https://github.com",
+        linkedin: "http://www.linkedin.com/in/iñaqui-díaz-gonzález",
+        github: null,
         whatsapp: null,
-        correo: "mailto:angel@example.com",
+        correo: null,
         telefono: null,
         x: null,
         instagram: null,
@@ -99,7 +99,7 @@ function EquipoPage() {
       avatar: "/avatars/avatar.webp",
       redes: {
         linkedin: null,
-        github: "https://github.com",
+        github: null,
         whatsapp: null,
         correo: null,
         telefono: null,
