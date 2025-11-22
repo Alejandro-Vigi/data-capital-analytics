@@ -1,0 +1,455 @@
+{
+  "ultima_actualizacion": "2025-11-22T03:11:53.591583",
+  "empresas": [
+    {
+      "ticker": "AAPL",
+      "nombre": "Apple",
+      "historico": [
+        {
+          "fecha": "2025-11-22",
+          "precio_real": 271.489990234375,
+          "precio_predicho": null,
+          "error_pct": null,
+          "acierto": null
+        }
+      ],
+      "prediccion_manana": {
+        "fecha_prediccion": "2025-11-24",
+        "precio_predicho": 271.5261647142968,
+        "cambio_diario_pct": 0.013324424922831965,
+        "cambio_acumulado_pct": 0.013324424922831965,
+        "tendencia": "estable"
+      },
+      "estado_actual": {
+        "fecha": "2025-11-22",
+        "precio_actual": 271.489990234375,
+        "rsi": 59.852250180801974,
+        "rsi_estado": "Neutral",
+        "tendencia_5d_pct": 1.5067669588158732,
+        "tendencia_20d_pct": 1.0948955292911742,
+        "volatilidad_pct": 1.2152985063632513,
+        "senal": "🟠 VENDER LEVE",
+        "senal_icono": "🟠",
+        "fuerza": -2,
+        "razon": "Señales bajistas leves, considerar reducir posición",
+        "precision_backtesting_pct": 98.3103853985055,
+        "error_abs_promedio": 4.4559354593397575,
+        "stop_loss": 279.63468994140624,
+        "take_profit": 271.7432115938276,
+        "risk_reward": -32.164347133425636,
+        "tamano_posicion": "Moderada",
+        "riesgo_por_trade": "2% del capital",
+        "volumen_estado": "Normal",
+        "macd_valor": 3.1798477397598504,
+        "macd_estado": "Alcista",
+        "bollinger_posicion_pct": 67.65730309594748,
+        "bollinger_zona": "Neutral"
+      }
+    },
+    {
+      "ticker": "MSFT",
+      "nombre": "Microsoft",
+      "historico": [
+        {
+          "fecha": "2025-11-22",
+          "precio_real": 472.1199951171875,
+          "precio_predicho": null,
+          "error_pct": null,
+          "acierto": null
+        }
+      ],
+      "prediccion_manana": {
+        "fecha_prediccion": "2025-11-24",
+        "precio_predicho": 471.080743787623,
+        "cambio_diario_pct": -0.22012440487857768,
+        "cambio_acumulado_pct": -0.22012440487857768,
+        "tendencia": "baja"
+      },
+      "estado_actual": {
+        "fecha": "2025-11-22",
+        "precio_actual": 472.1199951171875,
+        "rsi": 28.39326191164018,
+        "rsi_estado": "Sobreventa",
+        "tendencia_5d_pct": -6.795476133012129,
+        "tendencia_20d_pct": -11.009259382827459,
+        "volatilidad_pct": 1.4736631712297423,
+        "senal": "🟠 VENDER LEVE",
+        "senal_icono": "🟠",
+        "fuerza": -2,
+        "razon": "Señales bajistas leves, considerar reducir posición",
+        "precision_backtesting_pct": 98.48813087658434,
+        "error_abs_promedio": 7.757537526293894,
+        "stop_loss": 486.2835949707031,
+        "take_profit": 464.8452358102363,
+        "risk_reward": 1.9469509925891306,
+        "tamano_posicion": "Moderada",
+        "riesgo_por_trade": "2% del capital",
+        "volumen_estado": "Normal",
+        "macd_valor": -8.693156184646114,
+        "macd_estado": "Bajista",
+        "bollinger_posicion_pct": 0.06616300412755224,
+        "bollinger_zona": "Soporte"
+      }
+    },
+    {
+      "ticker": "NVDA",
+      "nombre": "Nvidia",
+      "historico": [
+        {
+          "fecha": "2025-11-22",
+          "precio_real": 178.8800048828125,
+          "precio_predicho": null,
+          "error_pct": null,
+          "acierto": null
+        }
+      ],
+      "prediccion_manana": {
+        "fecha_prediccion": "2025-11-24",
+        "precio_predicho": 178.572924257922,
+        "cambio_diario_pct": -0.17166850207303086,
+        "cambio_acumulado_pct": -0.17166850207303086,
+        "tendencia": "estable"
+      },
+      "estado_actual": {
+        "fecha": "2025-11-22",
+        "precio_actual": 178.8800048828125,
+        "rsi": 41.48034959310414,
+        "rsi_estado": "Neutral",
+        "tendencia_5d_pct": -4.137192373091609,
+        "tendencia_20d_pct": -6.585200401386861,
+        "volatilidad_pct": 3.1029555361024377,
+        "senal": "⚪ MANTENER",
+        "senal_icono": "⚪",
+        "fuerza": -1,
+        "razon": "Mercado lateral o señales contradictorias, mantener posición actual",
+        "precision_backtesting_pct": 96.84175685817837,
+        "error_abs_promedio": 6.027384940361267,
+        "stop_loss": null,
+        "take_profit": null,
+        "risk_reward": null,
+        "tamano_posicion": "0%",
+        "riesgo_por_trade": "No operar",
+        "volumen_estado": "Alto",
+        "macd_valor": -1.509858411066773,
+        "macd_estado": "Bajista",
+        "bollinger_posicion_pct": 7.700331299495031,
+        "bollinger_zona": "Soporte"
+      }
+    },
+    {
+      "ticker": "GOOGL",
+      "nombre": "Alphabet (Google)",
+      "historico": [
+        {
+          "fecha": "2025-11-22",
+          "precio_real": 299.6600036621094,
+          "precio_predicho": null,
+          "error_pct": null,
+          "acierto": null
+        }
+      ],
+      "prediccion_manana": {
+        "fecha_prediccion": "2025-11-24",
+        "precio_predicho": 299.86689296944195,
+        "cambio_diario_pct": 0.0690413484629928,
+        "cambio_acumulado_pct": 0.0690413484629928,
+        "tendencia": "estable"
+      },
+      "estado_actual": {
+        "fecha": "2025-11-22",
+        "precio_actual": 299.6600036621094,
+        "rsi": 68.09618579407193,
+        "rsi_estado": "Neutral",
+        "tendencia_5d_pct": 5.1364869878425425,
+        "tendencia_20d_pct": 11.286075644655105,
+        "volatilidad_pct": 2.4624300848132177,
+        "senal": "🟢 COMPRAR",
+        "senal_icono": "🟢",
+        "fuerza": 4,
+        "razon": "Señales alcistas moderadas con buena confirmación",
+        "precision_backtesting_pct": 97.23463161483008,
+        "error_abs_promedio": 7.458727578340813,
+        "stop_loss": 290.6702035522461,
+        "take_profit": 301.1082288134373,
+        "risk_reward": 0.1610964797469708,
+        "tamano_posicion": "Moderada",
+        "riesgo_por_trade": "2% del capital",
+        "volumen_estado": "Alto",
+        "macd_valor": 9.318634589362432,
+        "macd_estado": "Alcista",
+        "bollinger_posicion_pct": 104.73351518819723,
+        "bollinger_zona": "Resistencia"
+      }
+    },
+    {
+      "ticker": "AMZN",
+      "nombre": "Amazon",
+      "historico": [
+        {
+          "fecha": "2025-11-22",
+          "precio_real": 220.69000244140625,
+          "precio_predicho": null,
+          "error_pct": null,
+          "acierto": null
+        }
+      ],
+      "prediccion_manana": {
+        "fecha_prediccion": "2025-11-24",
+        "precio_predicho": 220.71246480447243,
+        "cambio_diario_pct": 0.010178242248262354,
+        "cambio_acumulado_pct": 0.010178242248262354,
+        "tendencia": "estable"
+      },
+      "estado_actual": {
+        "fecha": "2025-11-22",
+        "precio_actual": 220.69000244140625,
+        "rsi": 40.649709670696154,
+        "rsi_estado": "Neutral",
+        "tendencia_5d_pct": -5.23038301677805,
+        "tendencia_20d_pct": -2.7668849387678653,
+        "volatilidad_pct": 1.9609576057715592,
+        "senal": "🟠 VENDER LEVE",
+        "senal_icono": "🟠",
+        "fuerza": -2,
+        "razon": "Señales bajistas leves, considerar reducir posición",
+        "precision_backtesting_pct": 97.97148849655534,
+        "error_abs_promedio": 4.745517878165393,
+        "stop_loss": 227.31070251464845,
+        "take_profit": 220.84723898286947,
+        "risk_reward": -42.10662490812212,
+        "tamano_posicion": "Moderada",
+        "riesgo_por_trade": "2% del capital",
+        "volumen_estado": "Normal",
+        "macd_valor": -1.179733724101709,
+        "macd_estado": "Bajista",
+        "bollinger_posicion_pct": 15.787421479933316,
+        "bollinger_zona": "Soporte"
+      }
+    },
+    {
+      "ticker": "META",
+      "nombre": "Meta Platforms",
+      "historico": [
+        {
+          "fecha": "2025-11-22",
+          "precio_real": 594.25,
+          "precio_predicho": null,
+          "error_pct": null,
+          "acierto": null
+        }
+      ],
+      "prediccion_manana": {
+        "fecha_prediccion": "2025-11-24",
+        "precio_predicho": 590.4965547089615,
+        "cambio_diario_pct": -0.6316273102294445,
+        "cambio_acumulado_pct": -0.6316273102294445,
+        "tendencia": "baja"
+      },
+      "estado_actual": {
+        "fecha": "2025-11-22",
+        "precio_actual": 594.25,
+        "rsi": 26.371607512151527,
+        "rsi_estado": "Sobreventa",
+        "tendencia_5d_pct": -1.2890167338988487,
+        "tendencia_20d_pct": -20.853201272859632,
+        "volatilidad_pct": 1.2400964882254952,
+        "senal": "🟠 VENDER LEVE",
+        "senal_icono": "🟠",
+        "fuerza": -3.5,
+        "razon": "Señales bajistas leves, considerar reducir posición",
+        "precision_backtesting_pct": 95.18355235081216,
+        "error_abs_promedio": 31.816628486802042,
+        "stop_loss": 612.0775,
+        "take_profit": 567.9758829627307,
+        "risk_reward": 0.6785194712618516,
+        "tamano_posicion": "Moderada",
+        "riesgo_por_trade": "2% del capital",
+        "volumen_estado": "Bajo",
+        "macd_valor": -32.45432049847227,
+        "macd_estado": "Bajista",
+        "bollinger_posicion_pct": 28.337072098459743,
+        "bollinger_zona": "Soporte"
+      }
+    },
+    {
+      "ticker": "TSM",
+      "nombre": "TSMC",
+      "historico": [
+        {
+          "fecha": "2025-11-22",
+          "precio_real": 275.05999755859375,
+          "precio_predicho": null,
+          "error_pct": null,
+          "acierto": null
+        }
+      ],
+      "prediccion_manana": {
+        "fecha_prediccion": "2025-11-24",
+        "precio_predicho": 274.61884067736025,
+        "cambio_diario_pct": -0.16038569226683727,
+        "cambio_acumulado_pct": -0.16038569226683727,
+        "tendencia": "estable"
+      },
+      "estado_actual": {
+        "fecha": "2025-11-22",
+        "precio_actual": 275.05999755859375,
+        "rsi": 39.82280586551588,
+        "rsi_estado": "Neutral",
+        "tendencia_5d_pct": -2.4644558584311667,
+        "tendencia_20d_pct": -7.775357063338223,
+        "volatilidad_pct": 1.7782569762918392,
+        "senal": "⚪ MANTENER",
+        "senal_icono": "⚪",
+        "fuerza": -1,
+        "razon": "Mercado lateral o señales contradictorias, mantener posición actual",
+        "precision_backtesting_pct": 97.70479617109812,
+        "error_abs_promedio": 6.719671429531063,
+        "stop_loss": null,
+        "take_profit": null,
+        "risk_reward": null,
+        "tamano_posicion": "0%",
+        "riesgo_por_trade": "No operar",
+        "volumen_estado": "Alto",
+        "macd_valor": -3.0619503557531402,
+        "macd_estado": "Bajista",
+        "bollinger_posicion_pct": 7.701747107817989,
+        "bollinger_zona": "Soporte"
+      }
+    },
+    {
+      "ticker": "TSLA",
+      "nombre": "Tesla",
+      "historico": [
+        {
+          "fecha": "2025-11-22",
+          "precio_real": 391.0899963378906,
+          "precio_predicho": null,
+          "error_pct": null,
+          "acierto": null
+        }
+      ],
+      "prediccion_manana": {
+        "fecha_prediccion": "2025-11-24",
+        "precio_predicho": 389.88952953555827,
+        "cambio_diario_pct": -0.30695410610686863,
+        "cambio_acumulado_pct": -0.30695410610686863,
+        "tendencia": "baja"
+      },
+      "estado_actual": {
+        "fecha": "2025-11-22",
+        "precio_actual": 391.0899963378906,
+        "rsi": 38.25814016409751,
+        "rsi_estado": "Neutral",
+        "tendencia_5d_pct": -4.360270102797188,
+        "tendencia_20d_pct": -13.555991174037679,
+        "volatilidad_pct": 2.7212096481453556,
+        "senal": "🔴 VENDER",
+        "senal_icono": "🔴",
+        "fuerza": -4,
+        "razon": "Señales bajistas moderadas, considerar tomar ganancias",
+        "precision_backtesting_pct": 97.91321770513322,
+        "error_abs_promedio": 9.135356203480033,
+        "stop_loss": 402.8226962280274,
+        "take_profit": 382.68672872156407,
+        "risk_reward": 1.3962068597388835,
+        "tamano_posicion": "Moderada",
+        "riesgo_por_trade": "2% del capital",
+        "volumen_estado": "Normal",
+        "macd_valor": -10.143033394673523,
+        "macd_estado": "Bajista",
+        "bollinger_posicion_pct": 8.973135992373999,
+        "bollinger_zona": "Soporte"
+      }
+    },
+    {
+      "ticker": "AVGO",
+      "nombre": "Broadcom",
+      "historico": [
+        {
+          "fecha": "2025-11-22",
+          "precio_real": 340.20001220703125,
+          "precio_predicho": null,
+          "error_pct": null,
+          "acierto": null
+        }
+      ],
+      "prediccion_manana": {
+        "fecha_prediccion": "2025-11-24",
+        "precio_predicho": 339.71927934195713,
+        "cambio_diario_pct": -0.14130889118885845,
+        "cambio_acumulado_pct": -0.14130889118885845,
+        "tendencia": "estable"
+      },
+      "estado_actual": {
+        "fecha": "2025-11-22",
+        "precio_actual": 340.20001220703125,
+        "rsi": 44.92127714563084,
+        "rsi_estado": "Neutral",
+        "tendencia_5d_pct": -0.7150099906884202,
+        "tendencia_20d_pct": -6.03507148809296,
+        "volatilidad_pct": 2.457753263686872,
+        "senal": "⚪ MANTENER",
+        "senal_icono": "⚪",
+        "fuerza": -1,
+        "razon": "Mercado lateral o señales contradictorias, mantener posición actual",
+        "precision_backtesting_pct": 96.43928966756074,
+        "error_abs_promedio": 12.619409783546018,
+        "stop_loss": null,
+        "take_profit": null,
+        "risk_reward": null,
+        "tamano_posicion": "0%",
+        "riesgo_por_trade": "No operar",
+        "volumen_estado": "Alto",
+        "macd_valor": -1.3548384306218395,
+        "macd_estado": "Bajista",
+        "bollinger_posicion_pct": 18.74122090950206,
+        "bollinger_zona": "Soporte"
+      }
+    },
+    {
+      "ticker": "INTC",
+      "nombre": "Intel",
+      "historico": [
+        {
+          "fecha": "2025-11-22",
+          "precio_real": 34.5,
+          "precio_predicho": null,
+          "error_pct": null,
+          "acierto": null
+        }
+      ],
+      "prediccion_manana": {
+        "fecha_prediccion": "2025-11-24",
+        "precio_predicho": 34.37296965789206,
+        "cambio_diario_pct": -0.3682038901679516,
+        "cambio_acumulado_pct": -0.3682038901679516,
+        "tendencia": "baja"
+      },
+      "estado_actual": {
+        "fecha": "2025-11-22",
+        "precio_actual": 34.5,
+        "rsi": 42.54369743130049,
+        "rsi_estado": "Neutral",
+        "tendencia_5d_pct": -0.605010342874363,
+        "tendencia_20d_pct": -12.746587756269214,
+        "volatilidad_pct": 2.5491661497817693,
+        "senal": "🟠 VENDER LEVE",
+        "senal_icono": "🟠",
+        "fuerza": -3,
+        "razon": "Señales bajistas leves, considerar reducir posición",
+        "precision_backtesting_pct": 96.20062736579781,
+        "error_abs_promedio": 1.4183793411732333,
+        "stop_loss": 35.535000000000004,
+        "take_profit": 33.61078760524441,
+        "risk_reward": 1.1639513867600626,
+        "tamano_posicion": "Moderada",
+        "riesgo_por_trade": "2% del capital",
+        "volumen_estado": "Normal",
+        "macd_valor": -0.4856755476016019,
+        "macd_estado": "Bajista",
+        "bollinger_posicion_pct": 17.481761652760085,
+        "bollinger_zona": "Soporte"
+      }
+    }
+  ]
+}
