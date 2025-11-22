@@ -57,8 +57,13 @@ function PrediccionesPage() {
     if (!updatedAtRaw) {
       return { updatedUTC: "", updatedCDMX: "" };
     }
-    // El backend guarda datetime.utcnow().isoformat() ⇒ es UTC pero sin "Z"
-    const updatedAt = new Date(updatedAtRaw + "Z");
+
+    // El backend ahora guarda un ISO con zona horaria (+00:00 o Z)
+    // Intentamos parsear directo; si falla, probamos agregando "Z".
+    let updatedAt = new Date(updatedAtRaw);
+    if (Number.isNaN(updatedAt.getTime())) {
+      updatedAt = new Date(updatedAtRaw + "Z");
+    }
 
     const updatedUTC = new Intl.DateTimeFormat("es-MX", {
       dateStyle: "short",
