@@ -1,12 +1,12 @@
 {
-  "ultima_actualizacion": "2025-11-22T05:07:51.838102",
+  "ultima_actualizacion": "2025-11-22T05:30:37.402788+00:00",
   "empresas": [
     {
       "ticker": "AAPL",
       "nombre": "Apple",
       "historico": [
         {
-          "fecha": "2025-11-21",
+          "fecha": "2025-11-22",
           "precio_real": 266.25,
           "precio_predicho": null,
           "error_pct": null,
@@ -14,16 +14,16 @@
         }
       ],
       "prediccion_manana": {
-        "fecha_prediccion": "2025-11-21",
+        "fecha_prediccion": "2025-11-24",
         "precio_predicho": 266.31727926472365,
         "cambio_diario_pct": 0.025269207407944402,
         "cambio_acumulado_pct": 0.025269207407944402,
         "tendencia": "estable"
       },
       "estado_actual": {
-        "fecha": "2025-11-21",
+        "fecha": "2025-11-22",
         "precio_actual": 266.25,
-        "rsi": 51.76279872676139,
+        "rsi": 51.762798726761424,
         "rsi_estado": "Neutral",
         "tendencia_5d_pct": -2.2612986231409073,
         "tendencia_20d_pct": 1.4032724815446667,
@@ -42,7 +42,7 @@
         "volumen_estado": "Normal",
         "macd_valor": 3.2060740923394064,
         "macd_estado": "Alcista",
-        "bollinger_posicion_pct": 19.762023870011706,
+        "bollinger_posicion_pct": 19.76202386973344,
         "bollinger_zona": "Soporte"
       }
     },
@@ -51,7 +51,7 @@
       "nombre": "Microsoft",
       "historico": [
         {
-          "fecha": "2025-11-21",
+          "fecha": "2025-11-22",
           "precio_real": 478.42999267578125,
           "precio_predicho": null,
           "error_pct": null,
@@ -59,16 +59,16 @@
         }
       ],
       "prediccion_manana": {
-        "fecha_prediccion": "2025-11-21",
+        "fecha_prediccion": "2025-11-24",
         "precio_predicho": 477.56514844576526,
         "cambio_diario_pct": -0.18076714320919904,
         "cambio_acumulado_pct": -0.18076714320919904,
         "tendencia": "estable"
       },
       "estado_actual": {
-        "fecha": "2025-11-21",
+        "fecha": "2025-11-22",
         "precio_actual": 478.42999267578125,
-        "rsi": 30.816362227974892,
+        "rsi": 30.81636222855809,
         "rsi_estado": "Neutral",
         "tendencia_5d_pct": -6.0477766643591915,
         "tendencia_20d_pct": -8.457548932592143,
@@ -85,9 +85,9 @@
         "tamano_posicion": "Moderada",
         "riesgo_por_trade": "2% del capital",
         "volumen_estado": "Normal",
-        "macd_valor": -7.02848259287606,
+        "macd_valor": -7.0284825927356565,
         "macd_estado": "Bajista",
-        "bollinger_posicion_pct": 0.6191569798107931,
+        "bollinger_posicion_pct": 0.619156979799164,
         "bollinger_zona": "Soporte"
       }
     },
@@ -96,7 +96,7 @@
       "nombre": "Nvidia",
       "historico": [
         {
-          "fecha": "2025-11-21",
+          "fecha": "2025-11-22",
           "precio_real": 180.63999938964844,
           "precio_predicho": null,
           "error_pct": null,
@@ -104,16 +104,16 @@
         }
       ],
       "prediccion_manana": {
-        "fecha_prediccion": "2025-11-21",
+        "fecha_prediccion": "2025-11-24",
         "precio_predicho": 180.42203390773548,
         "cambio_diario_pct": -0.12066291112124848,
         "cambio_acumulado_pct": -0.12066291112124848,
         "tendencia": "estable"
       },
       "estado_actual": {
-        "fecha": "2025-11-21",
+        "fecha": "2025-11-22",
         "precio_actual": 180.63999938964844,
-        "rsi": 42.7508382471533,
+        "rsi": 42.75083824715983,
         "rsi_estado": "Neutral",
         "tendencia_5d_pct": -5.0113050802211765,
         "tendencia_20d_pct": -3.01728512988936,
@@ -130,9 +130,9 @@
         "tamano_posicion": "0%",
         "riesgo_por_trade": "No operar",
         "volumen_estado": "Alto",
-        "macd_valor": -0.8267488135200836,
+        "macd_valor": -0.8267488135196004,
         "macd_estado": "Bajista",
-        "bollinger_posicion_pct": 9.5327571623892,
+        "bollinger_posicion_pct": 9.532757162378186,
         "bollinger_zona": "Soporte"
       }
     },
@@ -141,7 +141,7 @@
       "nombre": "Alphabet (Google)",
       "historico": [
         {
-          "fecha": "2025-11-21",
+          "fecha": "2025-11-22",
           "precio_real": 289.45001220703125,
           "precio_predicho": null,
           "error_pct": null,
@@ -149,16 +149,16 @@
         }
       ],
       "prediccion_manana": {
-        "fecha_prediccion": "2025-11-21",
+        "fecha_prediccion": "2025-11-24",
         "precio_predicho": 290.3096775623468,
         "cambio_diario_pct": 0.29699959200577264,
         "cambio_acumulado_pct": 0.29699959200577264,
         "tendencia": "sube"
       },
       "estado_actual": {
-        "fecha": "2025-11-21",
+        "fecha": "2025-11-22",
         "precio_actual": 289.45001220703125,
-        "rsi": 62.604783362383735,
+        "rsi": 62.604783362402934,
         "rsi_estado": "Neutral",
         "tendencia_5d_pct": 4.717632637081512,
         "tendencia_20d_pct": 11.36118700128765,
@@ -175,9 +175,9 @@
         "tamano_posicion": "Moderada",
         "riesgo_por_trade": "2% del capital",
         "volumen_estado": "Alto",
-        "macd_valor": 8.69925632675995,
+        "macd_valor": 8.699256326798206,
         "macd_estado": "Alcista",
-        "bollinger_posicion_pct": 76.13905603151584,
+        "bollinger_posicion_pct": 76.13905603145734,
         "bollinger_zona": "Resistencia"
       }
     },
@@ -186,7 +186,7 @@
       "nombre": "Amazon",
       "historico": [
         {
-          "fecha": "2025-11-21",
+          "fecha": "2025-11-22",
           "precio_real": 217.13999938964844,
           "precio_predicho": null,
           "error_pct": null,
@@ -194,14 +194,14 @@
         }
       ],
       "prediccion_manana": {
-        "fecha_prediccion": "2025-11-21",
+        "fecha_prediccion": "2025-11-24",
         "precio_predicho": 217.70241453477976,
         "cambio_diario_pct": 0.25901038349092714,
         "cambio_acumulado_pct": 0.25901038349092714,
         "tendencia": "sube"
       },
       "estado_actual": {
-        "fecha": "2025-11-21",
+        "fecha": "2025-11-22",
         "precio_actual": 217.13999938964844,
         "rsi": 36.92654224783846,
         "rsi_estado": "Neutral",
@@ -231,7 +231,7 @@
       "nombre": "Meta Platforms",
       "historico": [
         {
-          "fecha": "2025-11-21",
+          "fecha": "2025-11-22",
           "precio_real": 589.1500244140625,
           "precio_predicho": null,
           "error_pct": null,
@@ -239,16 +239,16 @@
         }
       ],
       "prediccion_manana": {
-        "fecha_prediccion": "2025-11-21",
+        "fecha_prediccion": "2025-11-24",
         "precio_predicho": 585.2019404915696,
         "cambio_diario_pct": -0.6701321834653935,
         "cambio_acumulado_pct": -0.6701321834653935,
         "tendencia": "baja"
       },
       "estado_actual": {
-        "fecha": "2025-11-21",
+        "fecha": "2025-11-22",
         "precio_actual": 589.1500244140625,
-        "rsi": 23.10380626680221,
+        "rsi": 23.103806266802806,
         "rsi_estado": "Sobreventa",
         "tendencia_5d_pct": -3.332457720993055,
         "tendencia_20d_pct": -20.208294584985563,
@@ -267,7 +267,7 @@
         "volumen_estado": "Bajo",
         "macd_valor": -33.18294295335795,
         "macd_estado": "Bajista",
-        "bollinger_posicion_pct": 23.99691932373619,
+        "bollinger_posicion_pct": 23.996919323734208,
         "bollinger_zona": "Soporte"
       }
     },
@@ -276,7 +276,7 @@
       "nombre": "TSMC",
       "historico": [
         {
-          "fecha": "2025-11-21",
+          "fecha": "2025-11-22",
           "precio_real": 277.5,
           "precio_predicho": null,
           "error_pct": null,
@@ -284,16 +284,16 @@
         }
       ],
       "prediccion_manana": {
-        "fecha_prediccion": "2025-11-21",
+        "fecha_prediccion": "2025-11-24",
         "precio_predicho": 277.0773964951265,
         "cambio_diario_pct": -0.15228955130576832,
         "cambio_acumulado_pct": -0.15228955130576832,
         "tendencia": "estable"
       },
       "estado_actual": {
-        "fecha": "2025-11-21",
+        "fecha": "2025-11-22",
         "precio_actual": 277.5,
-        "rsi": 41.43840204292343,
+        "rsi": 41.43840204290856,
         "rsi_estado": "Neutral",
         "tendencia_5d_pct": -2.5700467439024313,
         "tendencia_20d_pct": -5.919443979146321,
@@ -310,9 +310,9 @@
         "tamano_posicion": "Moderada",
         "riesgo_por_trade": "2% del capital",
         "volumen_estado": "Alto",
-        "macd_valor": -2.4098595261155538,
+        "macd_valor": -2.4098595261127684,
         "macd_estado": "Bajista",
-        "bollinger_posicion_pct": 8.47031329313454,
+        "bollinger_posicion_pct": 8.470313293138384,
         "bollinger_zona": "Soporte"
       }
     },
@@ -321,7 +321,7 @@
       "nombre": "Tesla",
       "historico": [
         {
-          "fecha": "2025-11-21",
+          "fecha": "2025-11-22",
           "precio_real": 395.2300109863281,
           "precio_predicho": null,
           "error_pct": null,
@@ -329,14 +329,14 @@
         }
       ],
       "prediccion_manana": {
-        "fecha_prediccion": "2025-11-21",
+        "fecha_prediccion": "2025-11-24",
         "precio_predicho": 394.7602737313548,
         "cambio_diario_pct": -0.11885161599977127,
         "cambio_acumulado_pct": -0.11885161599977127,
         "tendencia": "estable"
       },
       "estado_actual": {
-        "fecha": "2025-11-21",
+        "fecha": "2025-11-22",
         "precio_actual": 395.2300109863281,
         "rsi": 39.35659913960003,
         "rsi_estado": "Neutral",
@@ -366,7 +366,7 @@
       "nombre": "Broadcom",
       "historico": [
         {
-          "fecha": "2025-11-21",
+          "fecha": "2025-11-22",
           "precio_real": 346.82000732421875,
           "precio_predicho": null,
           "error_pct": null,
@@ -374,16 +374,16 @@
         }
       ],
       "prediccion_manana": {
-        "fecha_prediccion": "2025-11-21",
+        "fecha_prediccion": "2025-11-24",
         "precio_predicho": 346.33226112630115,
         "cambio_diario_pct": -0.14063381224187585,
         "cambio_acumulado_pct": -0.14063381224187585,
         "tendencia": "estable"
       },
       "estado_actual": {
-        "fecha": "2025-11-21",
+        "fecha": "2025-11-22",
         "precio_actual": 346.82000732421875,
-        "rsi": 48.201625573347364,
+        "rsi": 48.201625573653956,
         "rsi_estado": "Neutral",
         "tendencia_5d_pct": 1.2731460544092628,
         "tendencia_20d_pct": -2.0642129889594503,
@@ -400,9 +400,9 @@
         "tamano_posicion": "Moderada",
         "riesgo_por_trade": "2% del capital",
         "volumen_estado": "Alto",
-        "macd_valor": -0.6558497249485526,
+        "macd_valor": -0.6558497244641899,
         "macd_estado": "Bajista",
-        "bollinger_posicion_pct": 29.696196791416966,
+        "bollinger_posicion_pct": 29.696196791428413,
         "bollinger_zona": "Soporte"
       }
     },
@@ -411,7 +411,7 @@
       "nombre": "Intel",
       "historico": [
         {
-          "fecha": "2025-11-21",
+          "fecha": "2025-11-22",
           "precio_real": 33.619998931884766,
           "precio_predicho": null,
           "error_pct": null,
@@ -419,14 +419,14 @@
         }
       ],
       "prediccion_manana": {
-        "fecha_prediccion": "2025-11-21",
+        "fecha_prediccion": "2025-11-24",
         "precio_predicho": 33.546909602290036,
         "cambio_diario_pct": -0.21739836977035928,
         "cambio_acumulado_pct": -0.21739836977035928,
         "tendencia": "baja"
       },
       "estado_actual": {
-        "fecha": "2025-11-21",
+        "fecha": "2025-11-22",
         "precio_actual": 33.619998931884766,
         "rsi": 38.194443964739996,
         "rsi_estado": "Neutral",
@@ -447,7 +447,7 @@
         "volumen_estado": "Normal",
         "macd_valor": -0.39449104211902153,
         "macd_estado": "Bajista",
-        "bollinger_posicion_pct": 4.015239693408782,
+        "bollinger_posicion_pct": 4.015239693428172,
         "bollinger_zona": "Soporte"
       }
     }

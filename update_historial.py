@@ -746,7 +746,7 @@ def run_trading_system():
 # =============================================
 import json
 import os
-from datetime import datetime
+from datetime import datetime, timezone, timedelta
 
 JSON_PATH = os.path.join("public", "historial.json")
 
@@ -763,7 +763,7 @@ def limpiar_valor(x):
         return 1 if x else 0
     try:
         return float(x)
-    except:
+    except Exception:
         return str(x)
 
 
@@ -775,7 +775,7 @@ def cargar_historial():
         with open(JSON_PATH, "r", encoding="utf-8") as f:
             try:
                 data = json.load(f)
-            except:
+            except Exception:
                 data = {"ultima_actualizacion": None, "empresas": []}
     else:
         data = {"ultima_actualizacion": None, "empresas": []}
@@ -796,10 +796,11 @@ def obtener_o_crear_empresa(data, ticker, nombre_mostrar=None):
         empresa = {
             "ticker": ticker,
             "nombre": nombre_mostrar or ticker,
-            "historico": []
+            "historico": [],
         }
         data["empresas"].append(empresa)
     else:
+        # Actualizar nombre "bonito" si se lo pasamos
         if nombre_mostrar:
             empresa["nombre"] = nombre_mostrar
 
@@ -807,11 +808,26 @@ def obtener_o_crear_empresa(data, ticker, nombre_mostrar=None):
 
 
 # -------------------------------------------------------------------
+# Función auxiliar: siguiente día hábil (saltando sábado/domingo)
+# -------------------------------------------------------------------
+def siguiente_dia_habil(fecha_base):
+    """
+    Recibe una fecha (date) y devuelve el siguiente día hábil
+    simple: solo salta sábado (5) y domingo (6).
+    """
+    d = fecha_base + timedelta(days=1)
+    while d.weekday() >= 5:  # 5 = sábado, 6 = domingo
+        d += timedelta(days=1)
+    return d
+
+
+# -------------------------------------------------------------------
 # PROCESAR UNA EMPRESA COMPLETA
 # -------------------------------------------------------------------
 def actualizar_empresa_con_resultados(data, ticker, nombre_mostrar=None):
+    # Variable global usada por run_trading_system()
     global TICKER
-    TICKER = ticker  # Se usa en run_trading_system()
+    TICKER = ticker
 
     print("\n" + "=" * 80)
     print(f"📈 Procesando {ticker} ({nombre_mostrar or ticker})")
@@ -821,10 +837,15 @@ def actualizar_empresa_con_resultados(data, ticker, nombre_mostrar=None):
 
     empresa = obtener_o_crear_empresa(data, ticker, nombre_mostrar)
 
+    # Momento actual en UTC
+    ahora_utc = datetime.now(timezone.utc)
+    hoy_utc = ahora_utc.date()
+    hoy_str = hoy_utc.isoformat()
+
     # -------- Extracción de valores -------- #
     current_price = limpiar_valor(trading_results["current_price"])
     future_prices = [limpiar_valor(p) for p in trading_results["future_prices"]]
-    future_dates = trading_results["future_dates"]
+    # future_dates = trading_results["future_dates"]   # ya no confiamos en esta fecha para "mañana"
     signal = trading_results["signal"]
     signal_strength = limpiar_valor(trading_results["signal_strength"])
     reasoning = trading_results["reasoning"]
@@ -833,13 +854,12 @@ def actualizar_empresa_con_resultados(data, ticker, nombre_mostrar=None):
     tech = trading_results["technical_analysis"]
     avg_error = limpiar_valor(trading_results["avg_error"])
 
-    hoy_str = datetime.today().strftime("%Y-%m-%d")
-
     # -------------------------------------------------------------------
     # 1) HISTÓRICO — comparar valor predicho AYER con valor real HOY
     # -------------------------------------------------------------------
     precio_predicho_hoy = None
 
+    # Tomamos la predicción guardada en la corrida anterior (si existía)
     pred_prev = empresa.get("prediccion_manana")
     if pred_prev and pred_prev.get("fecha_prediccion") == hoy_str:
         precio_predicho_hoy = limpiar_valor(pred_prev.get("precio_predicho"))
@@ -851,24 +871,28 @@ def actualizar_empresa_con_resultados(data, ticker, nombre_mostrar=None):
         error_pct = None
         acierto = None
 
-    empresa["historico"].append({
-        "fecha": hoy_str,
-        "precio_real": current_price,
-        "precio_predicho": precio_predicho_hoy,
-        "error_pct": limpiar_valor(error_pct),
-        "acierto": limpiar_valor(acierto)
-    })
+    empresa["historico"].append(
+        {
+            "fecha": hoy_str,  # fecha de ejecución (UTC)
+            "precio_real": current_price,
+            "precio_predicho": precio_predicho_hoy,
+            "error_pct": limpiar_valor(error_pct),
+            "acierto": limpiar_valor(acierto),
+        }
+    )
 
     # -------------------------------------------------------------------
-    # 2) SOLO GUARDAR LA PREDICCIÓN DE MAÑANA
+    # 2) SOLO GUARDAR LA PREDICCIÓN DE "MAÑANA" (próximo día hábil)
     # -------------------------------------------------------------------
-    if future_dates and future_prices:
-        d = future_dates[0]
-        price = cleaner = limpiar_valor(future_prices[0])
-        fecha_str = d.strftime("%Y-%m-%d") if hasattr(d, "strftime") else str(d)
+    if future_prices:
+        price = future_prices[0]
+
+        # Calculamos la fecha del próximo día hábil a partir de HOY (UTC)
+        siguiente_habil = siguiente_dia_habil(hoy_utc)
+        fecha_pred_str = siguiente_habil.isoformat()
 
         cambio_diario = (price - current_price) / current_price * 100
-        cambio_acum = cambio_diario
+        cambio_acum = cambio_diario  # como solo guardamos 1 día
 
         if cambio_acum > 0.2:
             tendencia = "sube"
@@ -878,15 +902,15 @@ def actualizar_empresa_con_resultados(data, ticker, nombre_mostrar=None):
             tendencia = "estable"
 
         empresa["prediccion_manana"] = {
-            "fecha_prediccion": fecha_str,
+            "fecha_prediccion": fecha_pred_str,
             "precio_predicho": price,
             "cambio_diario_pct": limpiar_valor(cambio_diario),
             "cambio_acumulado_pct": limpiar_valor(cambio_acum),
-            "tendencia": tendencia
+            "tendencia": tendencia,
         }
 
     # -------------------------------------------------------------------
-    # 3) ESTADO ACTUAL COMPLETO
+    # 3) ESTADO ACTUAL COMPLETO (en UTC)
     # -------------------------------------------------------------------
     rsi = limpiar_valor(tech["rsi"])
     vol_ratio = limpiar_valor(tech["volume_ratio"])
@@ -900,41 +924,38 @@ def actualizar_empresa_con_resultados(data, ticker, nombre_mostrar=None):
     senal_icono = signal.split()[0] if signal else ""
 
     empresa["estado_actual"] = {
-        "fecha": hoy_str,
+        "fecha": hoy_str,  # fecha de ejecución (UTC)
         "precio_actual": current_price,
-
         "rsi": rsi,
         "rsi_estado": rsi_estado,
         "tendencia_5d_pct": limpiar_valor(tech["trend_5d"]),
         "tendencia_20d_pct": limpiar_valor(tech["trend_20d"]),
         "volatilidad_pct": limpiar_valor(tech["volatility"]),
-
         "senal": signal,
         "senal_icono": senal_icono,
         "fuerza": signal_strength,
         "razon": reasoning,
-
         "precision_backtesting_pct": model_accuracy,
         "error_abs_promedio": avg_error,
-
         "stop_loss": limpiar_valor(risk["stop_loss"]) if risk.get("stop_loss") else None,
         "take_profit": limpiar_valor(risk["take_profit"]) if risk.get("take_profit") else None,
-        "risk_reward": limpiar_valor(risk["risk_reward"]) if risk.get("risk_reward") is not None else None,
+        "risk_reward": limpiar_valor(risk["risk_reward"])
+        if risk.get("risk_reward") is not None
+        else None,
         "tamano_posicion": risk["position_size"],
         "riesgo_por_trade": risk["risk_per_trade"],
-
         "volumen_estado": vol_estado,
         "macd_valor": macd_val,
         "macd_estado": macd_estado,
         "bollinger_posicion_pct": limpiar_valor(bb_pos * 100),
-        "bollinger_zona": bb_zona
+        "bollinger_zona": bb_zona,
     }
 
     return data
 
 
 # ========================================================
-#  LISTA DE EMPRESAS A PROCESAR (puedes agregar +)
+#  LISTA DE EMPRESAS A PROCESAR
 # ========================================================
 tickers_a_procesar = {
     "AAPL": "Apple",
@@ -946,7 +967,7 @@ tickers_a_procesar = {
     "TSM": "TSMC",
     "TSLA": "Tesla",
     "AVGO": "Broadcom",
-    "INTC": "Intel"
+    "INTC": "Intel",
 }
 
 
@@ -959,10 +980,11 @@ if __name__ == "__main__":
     for tk, nombre in tickers_a_procesar.items():
         data = actualizar_empresa_con_resultados(data, tk, nombre)
 
-    data["ultima_actualizacion"] = datetime.utcnow().isoformat()
+    # Timestamp UTC con zona
+    data["ultima_actualizacion"] = datetime.now(timezone.utc).isoformat()
 
     os.makedirs(os.path.dirname(JSON_PATH), exist_ok=True)
     with open(JSON_PATH, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
 
-    print("\n📁 historial.json actualizado con TODAS las empresas")
+    print("\n📁 historial.json actualizado con TODAS las empresas (UTC)")
