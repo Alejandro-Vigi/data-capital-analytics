@@ -2,9 +2,12 @@ name: Actualizar historial de precios
 
 on:
   schedule:
-    # Todos los días a las 03:00 UTC  (= 9 PM de México si estás en UTC-6)
+    # Todos los días a las 03:00 UTC (= 9 PM México si estás en UTC-6)
     - cron: "0 3 * * *"
-  workflow_dispatch:        # Permite correrlo manualmente desde GitHub
+  workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   run-script:
@@ -39,6 +42,6 @@ jobs:
           git config --local user.email "marco.vigi@ingenieria.unam.edu"
           git config --local user.name "Alejandro-Vigi"
           git add public/historial.json
-          git commit -m "Actualización automática del historial"
+          git commit -m "Actualización automática del historial" || echo "Sin cambios que commitear"
           git push
         continue-on-error: true
