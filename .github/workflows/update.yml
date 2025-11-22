@@ -2,8 +2,8 @@ name: Actualizar historial de precios
 
 on:
   schedule:
-    # Todos los días a las 03:00 UTC (= 9 PM México si estás en UTC-6)
-    - cron: "0 3 * * *"
+    # Lunes a viernes a las 23:30 UTC (~5:30 PM CDMX en UTC-6)
+    - cron: "30 23 * * 1-5"
   workflow_dispatch:
 
 permissions:
