@@ -499,11 +499,11 @@ function PrediccionesPage() {
                 </strong>
               </p>
               <p>
-                Tendencia 5d:{" "}
+                Tendencia 5 días:{" "}
                 <strong>{formatPct(estado.tendencia_5d_pct)}</strong>
               </p>
               <p>
-                Tendencia 20d:{" "}
+                Tendencia 20 días:{" "}
                 <strong>{formatPct(estado.tendencia_20d_pct)}</strong>
               </p>
               <p>

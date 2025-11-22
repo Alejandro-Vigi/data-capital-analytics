@@ -1,5 +1,5 @@
 {
-  "ultima_actualizacion": "2025-11-22T04:58:45.853602",
+  "ultima_actualizacion": "2025-11-22T05:07:51.838102",
   "empresas": [
     {
       "ticker": "AAPL",
@@ -23,7 +23,7 @@
       "estado_actual": {
         "fecha": "2025-11-21",
         "precio_actual": 266.25,
-        "rsi": 51.76279875980869,
+        "rsi": 51.76279872676139,
         "rsi_estado": "Neutral",
         "tendencia_5d_pct": -2.2612986231409073,
         "tendencia_20d_pct": 1.4032724815446667,
@@ -40,9 +40,9 @@
         "tamano_posicion": "0%",
         "riesgo_por_trade": "No operar",
         "volumen_estado": "Normal",
-        "macd_valor": 3.206074101202489,
+        "macd_valor": 3.2060740923394064,
         "macd_estado": "Alcista",
-        "bollinger_posicion_pct": 19.76202386973792,
+        "bollinger_posicion_pct": 19.762023870011706,
         "bollinger_zona": "Soporte"
       }
     },
@@ -68,7 +68,7 @@
       "estado_actual": {
         "fecha": "2025-11-21",
         "precio_actual": 478.42999267578125,
-        "rsi": 30.816362227860907,
+        "rsi": 30.816362227974892,
         "rsi_estado": "Neutral",
         "tendencia_5d_pct": -6.0477766643591915,
         "tendencia_20d_pct": -8.457548932592143,
@@ -85,9 +85,9 @@
         "tamano_posicion": "Moderada",
         "riesgo_por_trade": "2% del capital",
         "volumen_estado": "Normal",
-        "macd_valor": -7.028482592822741,
+        "macd_valor": -7.02848259287606,
         "macd_estado": "Bajista",
-        "bollinger_posicion_pct": 0.6191569797566667,
+        "bollinger_posicion_pct": 0.6191569798107931,
         "bollinger_zona": "Soporte"
       }
     },
@@ -113,7 +113,7 @@
       "estado_actual": {
         "fecha": "2025-11-21",
         "precio_actual": 180.63999938964844,
-        "rsi": 42.75083824721941,
+        "rsi": 42.7508382471533,
         "rsi_estado": "Neutral",
         "tendencia_5d_pct": -5.0113050802211765,
         "tendencia_20d_pct": -3.01728512988936,
@@ -130,9 +130,9 @@
         "tamano_posicion": "0%",
         "riesgo_por_trade": "No operar",
         "volumen_estado": "Alto",
-        "macd_valor": -0.8267488134599432,
+        "macd_valor": -0.8267488135200836,
         "macd_estado": "Bajista",
-        "bollinger_posicion_pct": 9.532757162387217,
+        "bollinger_posicion_pct": 9.5327571623892,
         "bollinger_zona": "Soporte"
       }
     },
@@ -158,7 +158,7 @@
       "estado_actual": {
         "fecha": "2025-11-21",
         "precio_actual": 289.45001220703125,
-        "rsi": 62.60478336239186,
+        "rsi": 62.604783362383735,
         "rsi_estado": "Neutral",
         "tendencia_5d_pct": 4.717632637081512,
         "tendencia_20d_pct": 11.36118700128765,
@@ -175,9 +175,9 @@
         "tamano_posicion": "Moderada",
         "riesgo_por_trade": "2% del capital",
         "volumen_estado": "Alto",
-        "macd_valor": 8.699256326797695,
+        "macd_valor": 8.69925632675995,
         "macd_estado": "Alcista",
-        "bollinger_posicion_pct": 76.13905603145862,
+        "bollinger_posicion_pct": 76.13905603151584,
         "bollinger_zona": "Resistencia"
       }
     },
@@ -248,7 +248,7 @@
       "estado_actual": {
         "fecha": "2025-11-21",
         "precio_actual": 589.1500244140625,
-        "rsi": 23.10380626089197,
+        "rsi": 23.10380626680221,
         "rsi_estado": "Sobreventa",
         "tendencia_5d_pct": -3.332457720993055,
         "tendencia_20d_pct": -20.208294584985563,
@@ -265,9 +265,9 @@
         "tamano_posicion": "Moderada",
         "riesgo_por_trade": "2% del capital",
         "volumen_estado": "Bajo",
-        "macd_valor": -33.18294295234011,
+        "macd_valor": -33.18294295335795,
         "macd_estado": "Bajista",
-        "bollinger_posicion_pct": 23.996919323736762,
+        "bollinger_posicion_pct": 23.99691932373619,
         "bollinger_zona": "Soporte"
       }
     },
@@ -293,7 +293,7 @@
       "estado_actual": {
         "fecha": "2025-11-21",
         "precio_actual": 277.5,
-        "rsi": 41.438402043991175,
+        "rsi": 41.43840204292343,
         "rsi_estado": "Neutral",
         "tendencia_5d_pct": -2.5700467439024313,
         "tendencia_20d_pct": -5.919443979146321,
@@ -310,9 +310,9 @@
         "tamano_posicion": "Moderada",
         "riesgo_por_trade": "2% del capital",
         "volumen_estado": "Alto",
-        "macd_valor": -2.409859526391301,
+        "macd_valor": -2.4098595261155538,
         "macd_estado": "Bajista",
-        "bollinger_posicion_pct": 8.470313293155957,
+        "bollinger_posicion_pct": 8.47031329313454,
         "bollinger_zona": "Soporte"
       }
     },
@@ -383,7 +383,7 @@
       "estado_actual": {
         "fecha": "2025-11-21",
         "precio_actual": 346.82000732421875,
-        "rsi": 48.20162557365395,
+        "rsi": 48.201625573347364,
         "rsi_estado": "Neutral",
         "tendencia_5d_pct": 1.2731460544092628,
         "tendencia_20d_pct": -2.0642129889594503,
@@ -400,9 +400,9 @@
         "tamano_posicion": "Moderada",
         "riesgo_por_trade": "2% del capital",
         "volumen_estado": "Alto",
-        "macd_valor": -0.6558497244641899,
+        "macd_valor": -0.6558497249485526,
         "macd_estado": "Bajista",
-        "bollinger_posicion_pct": 29.696196791430857,
+        "bollinger_posicion_pct": 29.696196791416966,
         "bollinger_zona": "Soporte"
       }
     },
@@ -447,7 +447,7 @@
         "volumen_estado": "Normal",
         "macd_valor": -0.39449104211902153,
         "macd_estado": "Bajista",
-        "bollinger_posicion_pct": 4.015239693425172,
+        "bollinger_posicion_pct": 4.015239693408782,
         "bollinger_zona": "Soporte"
       }
     }
