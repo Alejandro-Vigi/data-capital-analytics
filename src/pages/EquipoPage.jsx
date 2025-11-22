@@ -73,13 +73,13 @@ function EquipoPage() {
     },
   ];
 
-  // Personas del equipo
+    // Personas del equipo
   const personas = [
     {
       nombre: "Díaz González Rivas Ángel Iñaqui",
-      rol: "Visualización y frontend",
+      rol: "MLOps Engineer",
       descripcion:
-        "Implementa la interfaz en React y las visualizaciones interactivas del dashboard.",
+        "Administra la infraestructura y el despliegue del modelo, configura el entorno de ejecución y automatiza entrenamientos, garantizando escalabilidad, seguridad y disponibilidad del sistema.",
       avatar: "/avatars/avatar.webp",
       redes: {
         linkedin: "http://www.linkedin.com/in/iñaqui-díaz-gonzález",
@@ -93,9 +93,9 @@ function EquipoPage() {
     },
     {
       nombre: "Reyes Ramirez Jonathan",
-      rol: "Automatización y despliegue",
+      rol: "Business Analyst",
       descripcion:
-        "Configura la ejecución diaria del modelo y el despliegue en GitHub/Netlify.",
+        "Traduce las necesidades del negocio en requerimientos analíticos, define KPIs y reglas de decisión, y valida que las predicciones del modelo sean coherentes y útiles para la estrategia de inversión.",
       avatar: "/avatars/avatar.webp",
       redes: {
         linkedin: "http://www.linkedin.com/in/jonathan-reyes-ramírez-37aa69354",
@@ -109,9 +109,9 @@ function EquipoPage() {
     },
     {
       nombre: "Rojas Terrazas Laylet",
-      rol: "Automatización y despliegue",
+      rol: "Data Scientist",
       descripcion:
-        "Configura la ejecución diaria del modelo y el despliegue en GitHub/Netlify.",
+        "Diseña y desarrolla el modelo de aprendizaje automático de principio a fin. Selecciona los algoritmos óptimos, ajusta parámetros y asegura la máxima precisión. Lidera el entrenamiento, validación y evaluación del sistema para garantizar resultados confiables.",
       avatar: "/avatars/avatar.webp",
       redes: {
         linkedin: null,
@@ -125,9 +125,9 @@ function EquipoPage() {
     },
     {
       nombre: "Soto Rivera Marco Antonio",
-      rol: "Automatización y despliegue",
+      rol: "BI Developer",
       descripcion:
-        "Configura la ejecución diaria del modelo y el despliegue en GitHub/Netlify.",
+        "Diseña y desarrolla el dashboard analítico en Power BI, integra las salidas del modelo con métricas financieras y crea visualizaciones dinámicas centradas en la experiencia del usuario final.",
       avatar: "/avatars/avatar.webp",
       redes: {
         linkedin: null,
@@ -141,9 +141,9 @@ function EquipoPage() {
     },
     {
       nombre: "Vigi Garduño Marco Alejandro",
-      rol: "Visualización y frontend",
+      rol: "Data Engineer",
       descripcion:
-        "Responsable del diseño del modelo, implementa la interfaz en React y las visualizaciones interactivas del dashboard.",
+        "Construye y mantiene el pipeline de datos, conectando y limpiando fuentes externas. Desplegó la infraestructura que automatiza la predicción diaria en Netlify, garantizando la actualización continua del archivo JSON y entregando información estable y confiable.",
       avatar: "/avatars/avatar-5.webp",
       redes: {
         linkedin: "https://www.linkedin.com/in/alejandro-vigi/",
@@ -192,7 +192,7 @@ function EquipoPage() {
                 </div>
               </div>
 
-              <p className="text-xs md:text-sm text-slate-600">
+              <p className="text-xs md:text-sm text-slate-600 text-justify">
                 {p.descripcion}
               </p>
             </div>

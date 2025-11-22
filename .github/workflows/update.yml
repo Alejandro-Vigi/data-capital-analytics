@@ -1,0 +1,44 @@
+name: Actualizar historial de precios
+
+on:
+  schedule:
+    # Todos los días a las 03:00 UTC  (= 9 PM de México si estás en UTC-6)
+    - cron: "0 3 * * *"
+  workflow_dispatch:        # Permite correrlo manualmente desde GitHub
+
+jobs:
+  run-script:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Configurar Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.10"
+
+      - name: Instalar dependencias
+        run: |
+          pip install \
+            pandas \
+            numpy \
+            matplotlib \
+            seaborn \
+            yfinance \
+            scikit-learn \
+            ta
+
+      - name: Ejecutar script de trading
+        run: |
+          python update_historial.py
+
+      - name: Commit & push cambios
+        run: |
+          git config --local user.email "marco.vigi@ingenieria.unam.edu"
+          git config --local user.name "Alejandro-Vigi"
+          git add public/historial.json
+          git commit -m "Actualización automática del historial"
+          git push
+        continue-on-error: true
