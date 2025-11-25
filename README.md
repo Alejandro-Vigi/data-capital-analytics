@@ -135,13 +135,14 @@ GitHub Actions corre el modelo **todos los días hábiles**, actualiza el JSON y
 Todo esto ocurre sin intervención humana.  
 La plataforma siempre está actualizada.
 
-# 📈 **Capturas**
+# 📈 Capturas
 
-![Predicción](<img width="1442" height="1178" alt="Captura de pantalla 2025-11-24 193556" src="https://github.com/user-attachments/assets/ab8d6075-646b-49ac-a782-0ea1cc7d25e7" />
-)
-![Comparación](<img width="1441" height="436" alt="3" src="https://github.com/user-attachments/assets/b5b13050-fe27-4d1f-b884-726673577835" />)
-![Historial](<img width="1475" height="248" alt="2" src="https://github.com/user-attachments/assets/d512092e-b865-46a9-80b9-b948e2a214d0" />
-)
+![Predicción](https://github.com/user-attachments/assets/ab8d6075-646b-49ac-a782-0ea1cc7d25e7)
+
+![Comparación](https://github.com/user-attachments/assets/b5b13050-fe27-4d1f-b884-726673577835)
+
+![Historial](https://github.com/user-attachments/assets/d512092e-b865-46a9-80b9-b948e2a214d0)
+
 
 # 🧪 Estructura del repositorio
 ```
