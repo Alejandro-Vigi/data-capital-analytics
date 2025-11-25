@@ -18,6 +18,7 @@ function App() {
           <Route path="/predicciones" element={<PrediccionesPage />} />
           <Route path="/metodologia" element={<MetodologiaPage />} />
           <Route path="/equipo" element={<EquipoPage />} />
+          <Route path="*" element={<HomePage />} />
         </Routes>
       </main>
 
