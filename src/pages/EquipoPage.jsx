@@ -120,7 +120,7 @@ function EquipoPage() {
         correo: null,
         telefono: null,
         x: null,
-        instagram: null,
+        instagram: "https://www.instagram.com/lay.rouges",
       },
     },
     {
