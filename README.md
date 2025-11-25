@@ -143,19 +143,21 @@ La plataforma siempre está actualizada.
 
 # 🧪 Estructura del repositorio
 /
-├── python/
-│   ├── modelo.py
-│   ├── indicadores.py
-│   ├── historial.json
-│   └── requirements.txt
-├── src/
-│   ├── components/
-│   ├── pages/
-│   └── App.jsx
-├── public/
-├── .github/workflows/
-│   └── update.yml
-└── README.md
+├─ python/
+│  ├─ modelo.py
+│  ├─ indicadores.py
+│  ├─ historial.json
+│  └─ requirements.txt
+├─ src/
+│  ├─ components/
+│  ├─ pages/
+│  └─ App.jsx
+├─ public/
+├─ .github/
+│  └─ workflows/
+│     └─ update.yml
+└─ README.md
+
 
 ## 👥 Equipo de desarrollo
 
