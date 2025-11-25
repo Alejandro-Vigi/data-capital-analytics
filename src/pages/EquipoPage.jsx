@@ -130,7 +130,7 @@ function EquipoPage() {
         "Diseña y desarrolla el dashboard analítico en Power BI, integra las salidas del modelo con métricas financieras y crea visualizaciones dinámicas centradas en la experiencia del usuario final.",
       avatar: "/avatars/avatar.webp",
       redes: {
-        linkedin: null,
+        linkedin: "https://www.linkedin.com/in/marco-antonio-soto-rivera-34a7b3330/",
         github: null,
         whatsapp: null,
         correo: null,
