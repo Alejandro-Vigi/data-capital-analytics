@@ -142,6 +142,7 @@ La plataforma siempre está actualizada.
 ![Historial]()
 
 # 🧪 Estructura del repositorio
+```
 /
 ├─ python/
 │  ├─ modelo.py
@@ -157,7 +158,7 @@ La plataforma siempre está actualizada.
 │  └─ workflows/
 │     └─ update.yml
 └─ README.md
-
+```
 
 ## 👥 Equipo de desarrollo
 
