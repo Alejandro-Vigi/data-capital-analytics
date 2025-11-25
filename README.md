@@ -74,7 +74,7 @@ GitHub Actions corre el modelo **todos los días hábiles**, actualiza el JSON y
 
 # 🧩 **Arquitectura general**
            ┌────────────────────────┐
-           │   Yahoo Finance API     │
+           │   Yahoo Finance API    │
            └───────────┬────────────┘
                        │  Datos diarios
                        ▼
