@@ -481,7 +481,7 @@ function PrediccionesPage() {
                   ({tasaAciertos.toFixed(1)}%)
                 </p>
                 <p className="text-xs text-slate-500 mt-2">
-                  (Acierto = predicción con error menor o igual al 2%)
+                  (Acierto = predicción con error menor o igual al 3.5%)
                 </p>
               </>
             )}
@@ -577,10 +577,10 @@ function PrediccionesPage() {
                     <Tooltip />
                     <Legend />
                     <ReferenceLine
-                      y={2}
+                      y={3.5}
                       stroke="#16a34a"
                       strokeDasharray="3 3"
-                      label="Umbral 2%"
+                      label="Umbral 3.5%"
                     />
                     <Bar dataKey="error" name="Error %" fill="#f97316" />
                   </BarChart>

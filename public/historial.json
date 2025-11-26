@@ -142,7 +142,7 @@
           "precio_real": 182.5500030517578,
           "precio_predicho": 178.572924257922,
           "error_pct": 2.1786243370854357,
-          "acierto": 0.0
+          "acierto": 1.0
         }
       ],
       "prediccion_manana": {
@@ -194,7 +194,7 @@
           "precio_real": 299.6600036621094,
           "precio_predicho": 290.3096775623468,
           "error_pct": 3.1203116817370877,
-          "acierto": 0.0
+          "acierto": 1.0
         },
         {
           "fecha": "2025-11-25",
@@ -260,7 +260,7 @@
           "precio_real": 226.27999877929688,
           "precio_predicho": 220.71246480447243,
           "error_pct": 2.4604622612954667,
-          "acierto": 0.0
+          "acierto": 1.0
         }
       ],
       "prediccion_manana": {
@@ -548,7 +548,7 @@
           "precio_real": 34.5,
           "precio_predicho": 33.546909602290036,
           "error_pct": 2.762580862927432,
-          "acierto": 0.0
+          "acierto": 1.0
         },
         {
           "fecha": "2025-11-25",

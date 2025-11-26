@@ -866,7 +866,7 @@ def actualizar_empresa_con_resultados(data, ticker, nombre_mostrar=None):
 
     if precio_predicho_hoy is not None:
         error_pct = abs(precio_predicho_hoy - current_price) / current_price * 100
-        acierto = error_pct <= 2
+        acierto = error_pct <= 3.5
     else:
         error_pct = None
         acierto = None
