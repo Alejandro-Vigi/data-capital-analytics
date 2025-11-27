@@ -813,59 +813,6 @@ function PrediccionesPage() {
                 <strong>{formatPct(estado.volatilidad_pct)}</strong>
               </p>
             </div>
-
-            <h3 className="text-xs font-semibold text-slate-600 mb-2">
-              Puntuación del modelo técnico (0–100)
-            </h3>
-
-            {perfilActivoChartData.length > 0 ? (
-              <div className="h-52">
-                <ResponsiveContainer width="100%" height="100%">
-                  <BarChart
-                    layout="vertical"
-                    data={perfilActivoChartData}
-                    margin={{ top: 0, right: 24, left: 0, bottom: 0 }}
-                  >
-                    <XAxis type="number" domain={[0, 100]} hide />
-                    <YAxis
-                      type="category"
-                      dataKey="indicador"
-                      stroke="#64748b"
-                      width={110}
-                    />
-                    <Tooltip
-                      formatter={(value, name, props) => [
-                        `${value.toFixed(0)}`,
-                        props.payload.indicador,
-                      ]}
-                    />
-                    <Bar
-                      dataKey="valor"
-                      fill={COLOR_PRIMARIO}
-                      radius={[4, 4, 0, 0]}
-                      name="Score"
-                    />
-                    {perfilActivoChartData.map((entry, index) => (
-                      <ReferenceLine
-                        key={`meta-${index}`}
-                        x={entry.meta}
-                        stroke={COLOR_SECUNDARIO}
-                        strokeDasharray="3 3"
-                        isFront={true}
-                      />
-                    ))}
-                  </BarChart>
-                </ResponsiveContainer>
-              </div>
-            ) : (
-              <p className="text-sm text-slate-500">
-                Sin indicadores de perfil.
-              </p>
-            )}
-
-            <p className="text-xs text-slate-500 mt-2 text-center">
-              Línea punteada verde = meta óptima para cada indicador.
-            </p>
           </div>
         </div>
 
