@@ -148,11 +148,11 @@ function EquipoPage() {
       redes: {
         linkedin: "https://www.linkedin.com/in/alejandro-vigi/",
         github: "https://github.com/Alejandro-Vigi",
-        whatsapp: "https://wa.me/525518602484",
+        whatsapp: null,
         correo: "mailto:alejandro.vigi28@gmail.com",
         telefono: "tel:+525518602484",
-        x: "https://x.com/Alejandro_Vigi",
-        instagram: "https://instagram.com/Alejandro_Vigi",
+        x: null,
+        instagram: null,
       },
     },
   ];
