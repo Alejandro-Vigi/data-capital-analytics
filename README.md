@@ -137,11 +137,15 @@ La plataforma siempre está actualizada.
 
 # 📈 Capturas
 
-![Predicción](https://github.com/user-attachments/assets/ab8d6075-646b-49ac-a782-0ea1cc7d25e7)
+![Predicción](https://github.com/user-attachments/assets/439ccebc-3886-48f9-9f2e-3c4c7fef8837)
 
-![Comparación](https://github.com/user-attachments/assets/b5b13050-fe27-4d1f-b884-726673577835)
+![Comparación](https://github.com/user-attachments/assets/98f35faa-de54-4aed-ba77-73161a1898a3)
 
-![Historial](https://github.com/user-attachments/assets/d512092e-b865-46a9-80b9-b948e2a214d0)
+![Historial](https://github.com/user-attachments/assets/3307ba36-9848-4b70-8798-e454455bf9f3)
+
+![Historial](https://github.com/user-attachments/assets/a8325358-1976-4f41-b4f5-73724cf67eb8)
+
+![Historial](https://github.com/user-attachments/assets/ae9815a0-47d1-46b5-aec1-cb961e814eeb)
 
 
 # 🧪 Estructura del repositorio
