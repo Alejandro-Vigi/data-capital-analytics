@@ -988,12 +988,13 @@ function PrediccionesPage() {
               />
               <Tooltip
                 formatter={(v, name) => [
-                `${Number(v).toFixed(2)}%`,
-                name === "tasaAciertos"
-                  ? "Aciertos"
-                  : "Error medio",
-              ]}
+                  `${Number(v).toFixed(2)}%`,
+                  name === "tasaAciertos"
+                    ? "Tasa de aciertos"
+                    : "Error medio",
+                ]}
               />
+              
               <Legend />
               <Bar
                 yAxisId="left"
