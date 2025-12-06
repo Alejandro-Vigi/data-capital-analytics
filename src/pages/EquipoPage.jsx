@@ -139,6 +139,7 @@ function EquipoPage() {
         instagram: null,
       },
     },
+    
     {
       nombre: "Vigi Garduño Marco Alejandro",
       rol: "Data Engineer",
