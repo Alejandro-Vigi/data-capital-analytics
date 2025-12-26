@@ -1,5 +1,5 @@
 {
-  "ultima_actualizacion": "2025-12-25T23:41:30.170206+00:00",
+  "ultima_actualizacion": "2025-12-26T23:41:47.684668+00:00",
   "empresas": [
     {
       "ticker": "AAPL",
@@ -179,19 +179,26 @@
           "precio_predicho": 272.2540410394203,
           "error_pct": 0.5682613977016925,
           "acierto": 1.0
+        },
+        {
+          "fecha": "2025-12-26",
+          "precio_real": 273.80999755859375,
+          "precio_predicho": 273.5733553059354,
+          "error_pct": 0.08642571665327442,
+          "acierto": 1.0
         }
       ],
       "prediccion_manana": {
-        "fecha_prediccion": "2025-12-26",
+        "fecha_prediccion": "2025-12-29",
         "precio_predicho": 273.5733553059354,
         "cambio_diario_pct": -0.08642571665327442,
         "cambio_acumulado_pct": -0.08642571665327442,
         "tendencia": "estable"
       },
       "estado_actual": {
-        "fecha": "2025-12-25",
+        "fecha": "2025-12-26",
         "precio_actual": 273.80999755859375,
-        "rsi": 50.01209699021042,
+        "rsi": 50.012096990226645,
         "rsi_estado": "Neutral",
         "tendencia_5d_pct": 0.5951706905679729,
         "tendencia_20d_pct": -1.3475014948171244,
@@ -208,9 +215,9 @@
         "tamano_posicion": "Moderada",
         "riesgo_por_trade": "2% del capital",
         "volumen_estado": "Bajo",
-        "macd_valor": 0.3027510170434198,
+        "macd_valor": 0.3027510170485357,
         "macd_estado": "Alcista",
-        "bollinger_posicion_pct": 29.812703472281694,
+        "bollinger_posicion_pct": 29.812703472281417,
         "bollinger_zona": "Soporte"
       }
     },
@@ -392,19 +399,26 @@
           "precio_predicho": 486.88098169986637,
           "error_pct": 0.23339357801870653,
           "acierto": 1.0
+        },
+        {
+          "fecha": "2025-12-26",
+          "precio_real": 488.0199890136719,
+          "precio_predicho": 487.69031616714904,
+          "error_pct": 0.0675531441220544,
+          "acierto": 1.0
         }
       ],
       "prediccion_manana": {
-        "fecha_prediccion": "2025-12-26",
+        "fecha_prediccion": "2025-12-29",
         "precio_predicho": 487.69031616714904,
         "cambio_diario_pct": -0.0675531441220544,
         "cambio_acumulado_pct": -0.0675531441220544,
         "tendencia": "estable"
       },
       "estado_actual": {
-        "fecha": "2025-12-25",
+        "fecha": "2025-12-26",
         "precio_actual": 488.0199890136719,
-        "rsi": 50.581569088700114,
+        "rsi": 50.581569088700164,
         "rsi_estado": "Neutral",
         "tendencia_5d_pct": 0.8347406784653085,
         "tendencia_20d_pct": 0.5190502602825695,
@@ -423,7 +437,7 @@
         "volumen_estado": "Bajo",
         "macd_valor": -3.0391501366461853,
         "macd_estado": "Bajista",
-        "bollinger_posicion_pct": 69.69350466999668,
+        "bollinger_posicion_pct": 69.69350467002867,
         "bollinger_zona": "Neutral"
       }
     },
@@ -605,19 +619,26 @@
           "precio_predicho": 189.34351404312807,
           "error_pct": 0.38890484619204596,
           "acierto": 1.0
+        },
+        {
+          "fecha": "2025-12-26",
+          "precio_real": 188.61000061035156,
+          "precio_predicho": 188.75746593949273,
+          "error_pct": 0.07818531820368194,
+          "acierto": 1.0
         }
       ],
       "prediccion_manana": {
-        "fecha_prediccion": "2025-12-26",
+        "fecha_prediccion": "2025-12-29",
         "precio_predicho": 188.75746593949273,
         "cambio_diario_pct": 0.07818531820368194,
         "cambio_acumulado_pct": 0.07818531820368194,
         "tendencia": "estable"
       },
       "estado_actual": {
-        "fecha": "2025-12-25",
+        "fecha": "2025-12-26",
         "precio_actual": 188.61000061035156,
-        "rsi": 56.89212201024733,
+        "rsi": 56.89212201282919,
         "rsi_estado": "Neutral",
         "tendencia_5d_pct": 8.309406954990077,
         "tendencia_20d_pct": 4.638029686457836,
@@ -634,9 +655,9 @@
         "tamano_posicion": "Moderada",
         "riesgo_por_trade": "2% del capital",
         "volumen_estado": "Bajo",
-        "macd_valor": -0.37133729050123065,
+        "macd_valor": -0.37133729203478083,
         "macd_estado": "Bajista",
-        "bollinger_posicion_pct": 92.63154753492925,
+        "bollinger_posicion_pct": 92.6315475349488,
         "bollinger_zona": "Resistencia"
       }
     },
@@ -818,19 +839,26 @@
           "precio_predicho": 314.2437216438368,
           "error_pct": 0.04894307610510708,
           "acierto": 1.0
+        },
+        {
+          "fecha": "2025-12-26",
+          "precio_real": 314.0899963378906,
+          "precio_predicho": 313.85842848071627,
+          "error_pct": 0.07372659424824196,
+          "acierto": 1.0
         }
       ],
       "prediccion_manana": {
-        "fecha_prediccion": "2025-12-26",
+        "fecha_prediccion": "2025-12-29",
         "precio_predicho": 313.85842848071627,
         "cambio_diario_pct": -0.07372659424824196,
         "cambio_acumulado_pct": -0.07372659424824196,
         "tendencia": "estable"
       },
       "estado_actual": {
-        "fecha": "2025-12-25",
+        "fecha": "2025-12-26",
         "precio_actual": 314.0899963378906,
-        "rsi": 58.32696141464229,
+        "rsi": 58.326961434752455,
         "rsi_estado": "Neutral",
         "tendencia_5d_pct": 3.8451382699783645,
         "tendencia_20d_pct": -1.7673307805688678,
@@ -847,9 +875,9 @@
         "tamano_posicion": "Moderada",
         "riesgo_por_trade": "2% del capital",
         "volumen_estado": "Bajo",
-        "macd_valor": 4.570830644329703,
+        "macd_valor": 4.570830648264462,
         "macd_estado": "Alcista",
-        "bollinger_posicion_pct": 54.31302968295837,
+        "bollinger_posicion_pct": 54.31302968295595,
         "bollinger_zona": "Neutral"
       }
     },
@@ -1031,17 +1059,24 @@
           "precio_predicho": 232.0586800781178,
           "error_pct": 0.1382755822114528,
           "acierto": 1.0
+        },
+        {
+          "fecha": "2025-12-26",
+          "precio_real": 232.3800048828125,
+          "precio_predicho": 232.11367897975333,
+          "error_pct": 0.11460792558011824,
+          "acierto": 1.0
         }
       ],
       "prediccion_manana": {
-        "fecha_prediccion": "2025-12-26",
+        "fecha_prediccion": "2025-12-29",
         "precio_predicho": 232.11367897975333,
         "cambio_diario_pct": -0.11460792558011824,
         "cambio_acumulado_pct": -0.11460792558011824,
         "tendencia": "estable"
       },
       "estado_actual": {
-        "fecha": "2025-12-25",
+        "fecha": "2025-12-26",
         "precio_actual": 232.3800048828125,
         "rsi": 55.113301847762756,
         "rsi_estado": "Neutral",
@@ -1244,19 +1279,26 @@
           "precio_predicho": 665.5897048830702,
           "error_pct": 0.2936533511714299,
           "acierto": 1.0
+        },
+        {
+          "fecha": "2025-12-26",
+          "precio_real": 667.5499877929688,
+          "precio_predicho": 667.5124584813628,
+          "error_pct": 0.0056219477630411584,
+          "acierto": 1.0
         }
       ],
       "prediccion_manana": {
-        "fecha_prediccion": "2025-12-26",
+        "fecha_prediccion": "2025-12-29",
         "precio_predicho": 667.5124584813628,
         "cambio_diario_pct": -0.0056219477630411584,
         "cambio_acumulado_pct": -0.0056219477630411584,
         "tendencia": "estable"
       },
       "estado_actual": {
-        "fecha": "2025-12-25",
+        "fecha": "2025-12-26",
         "precio_actual": 667.5499877929688,
-        "rsi": 56.92660288235004,
+        "rsi": 56.926602888672136,
         "rsi_estado": "Neutral",
         "tendencia_5d_pct": 0.46654760011827656,
         "tendencia_20d_pct": 5.442537776909679,
@@ -1273,9 +1315,9 @@
         "tamano_posicion": "0%",
         "riesgo_por_trade": "No operar",
         "volumen_estado": "Bajo",
-        "macd_valor": 4.0772810598351725,
+        "macd_valor": 4.077281097846935,
         "macd_estado": "Alcista",
-        "bollinger_posicion_pct": 82.32309992803015,
+        "bollinger_posicion_pct": 82.32309992800455,
         "bollinger_zona": "Resistencia"
       }
     },
@@ -1457,19 +1499,26 @@
           "precio_predicho": 297.4673151714462,
           "error_pct": 0.44600825835572316,
           "acierto": 1.0
+        },
+        {
+          "fecha": "2025-12-26",
+          "precio_real": 298.79998779296875,
+          "precio_predicho": 298.9084683154643,
+          "error_pct": 0.036305397231376,
+          "acierto": 1.0
         }
       ],
       "prediccion_manana": {
-        "fecha_prediccion": "2025-12-26",
+        "fecha_prediccion": "2025-12-29",
         "precio_predicho": 298.9084683154643,
         "cambio_diario_pct": 0.036305397231376,
         "cambio_acumulado_pct": 0.036305397231376,
         "tendencia": "estable"
       },
       "estado_actual": {
-        "fecha": "2025-12-25",
+        "fecha": "2025-12-26",
         "precio_actual": 298.79998779296875,
-        "rsi": 56.13600865922845,
+        "rsi": 56.13600865923021,
         "rsi_estado": "Neutral",
         "tendencia_5d_pct": 4.959953449650604,
         "tendencia_20d_pct": 3.3268860515408254,
@@ -1486,9 +1535,9 @@
         "tamano_posicion": "Moderada",
         "riesgo_por_trade": "2% del capital",
         "volumen_estado": "Bajo",
-        "macd_valor": 1.0977903284334616,
+        "macd_valor": 1.0977903284338595,
         "macd_estado": "Alcista",
-        "bollinger_posicion_pct": 69.18952318712745,
+        "bollinger_posicion_pct": 69.18952318714138,
         "bollinger_zona": "Neutral"
       }
     },
@@ -1670,17 +1719,24 @@
           "precio_predicho": 487.40397014296946,
           "error_pct": 0.41285048860392976,
           "acierto": 1.0
+        },
+        {
+          "fecha": "2025-12-26",
+          "precio_real": 485.3999938964844,
+          "precio_predicho": 486.6527603911226,
+          "error_pct": 0.2580895159437135,
+          "acierto": 1.0
         }
       ],
       "prediccion_manana": {
-        "fecha_prediccion": "2025-12-26",
+        "fecha_prediccion": "2025-12-29",
         "precio_predicho": 486.6527603911226,
         "cambio_diario_pct": 0.2580895159437135,
         "cambio_acumulado_pct": 0.2580895159437135,
         "tendencia": "sube"
       },
       "estado_actual": {
-        "fecha": "2025-12-25",
+        "fecha": "2025-12-26",
         "precio_actual": 485.3999938964844,
         "rsi": 62.281426444497306,
         "rsi_estado": "Neutral",
@@ -1883,19 +1939,26 @@
           "precio_predicho": 348.79762809859795,
           "error_pct": 0.4061370330499238,
           "acierto": 1.0
+        },
+        {
+          "fecha": "2025-12-26",
+          "precio_real": 350.2200012207031,
+          "precio_predicho": 349.2510995623061,
+          "error_pct": 0.27665514677057457,
+          "acierto": 1.0
         }
       ],
       "prediccion_manana": {
-        "fecha_prediccion": "2025-12-26",
+        "fecha_prediccion": "2025-12-29",
         "precio_predicho": 349.2510995623061,
         "cambio_diario_pct": -0.27665514677057457,
         "cambio_acumulado_pct": -0.27665514677057457,
         "tendencia": "baja"
       },
       "estado_actual": {
-        "fecha": "2025-12-25",
+        "fecha": "2025-12-26",
         "precio_actual": 350.2200012207031,
-        "rsi": 45.89934166040258,
+        "rsi": 45.8993416536823,
         "rsi_estado": "Neutral",
         "tendencia_5d_pct": 6.369011012743231,
         "tendencia_20d_pct": -11.74130439881886,
@@ -1912,9 +1975,9 @@
         "tamano_posicion": "Moderada",
         "riesgo_por_trade": "2% del capital",
         "volumen_estado": "Bajo",
-        "macd_valor": -6.458007061789829,
+        "macd_valor": -6.458007066629364,
         "macd_estado": "Bajista",
-        "bollinger_posicion_pct": 31.970220554674246,
+        "bollinger_posicion_pct": 31.970220554673755,
         "bollinger_zona": "Neutral"
       }
     },
@@ -2096,17 +2159,24 @@
           "precio_predicho": 36.34687652689487,
           "error_pct": 0.5168049786264924,
           "acierto": 1.0
+        },
+        {
+          "fecha": "2025-12-26",
+          "precio_real": 36.15999984741211,
+          "precio_predicho": 36.07866582959146,
+          "error_pct": 0.22492814757705962,
+          "acierto": 1.0
         }
       ],
       "prediccion_manana": {
-        "fecha_prediccion": "2025-12-26",
+        "fecha_prediccion": "2025-12-29",
         "precio_predicho": 36.07866582959146,
         "cambio_diario_pct": -0.22492814757705962,
         "cambio_acumulado_pct": -0.22492814757705962,
         "tendencia": "baja"
       },
       "estado_actual": {
-        "fecha": "2025-12-25",
+        "fecha": "2025-12-26",
         "precio_actual": 36.15999984741211,
         "rsi": 42.71401889399825,
         "rsi_estado": "Neutral",
@@ -2127,7 +2197,7 @@
         "volumen_estado": "Bajo",
         "macd_valor": -0.41586970023885783,
         "macd_estado": "Bajista",
-        "bollinger_posicion_pct": 21.356950800150074,
+        "bollinger_posicion_pct": 21.356950800159854,
         "bollinger_zona": "Soporte"
       }
     }
