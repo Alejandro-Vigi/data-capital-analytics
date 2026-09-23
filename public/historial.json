@@ -1,5 +1,5 @@
 {
-  "ultima_actualizacion": "2026-09-22T01:43:42.260925+00:00",
+  "ultima_actualizacion": "2026-09-23T01:39:39.272278+00:00",
   "empresas": [
     {
       "ticker": "AAPL",
@@ -1523,19 +1523,26 @@
           "precio_predicho": null,
           "error_pct": null,
           "acierto": null
+        },
+        {
+          "fecha": "2026-09-23",
+          "precio_real": 338.9800109863281,
+          "precio_predicho": 339.43977421373427,
+          "error_pct": 0.13563136837135978,
+          "acierto": 1.0
         }
       ],
       "prediccion_manana": {
-        "fecha_prediccion": "2026-09-23",
+        "fecha_prediccion": "2026-09-24",
         "precio_predicho": 339.43977421373427,
         "cambio_diario_pct": 0.13563136837135978,
         "cambio_acumulado_pct": 0.13563136837135978,
         "tendencia": "estable"
       },
       "estado_actual": {
-        "fecha": "2026-09-22",
+        "fecha": "2026-09-23",
         "precio_actual": 338.9800109863281,
-        "rsi": 66.36612857389429,
+        "rsi": 66.3661286093189,
         "rsi_estado": "Neutral",
         "tendencia_5d_pct": 2.3057930623764604,
         "tendencia_20d_pct": 9.22859282928358,
@@ -1552,9 +1559,9 @@
         "tamano_posicion": "Moderada",
         "riesgo_por_trade": "2% del capital",
         "volumen_estado": "Normal",
-        "macd_valor": 5.955870829457126,
+        "macd_valor": 5.955870835222925,
         "macd_estado": "Alcista",
-        "bollinger_posicion_pct": 90.90867643998041,
+        "bollinger_posicion_pct": 90.90867643999412,
         "bollinger_zona": "Resistencia"
       }
     },
@@ -3080,19 +3087,26 @@
           "precio_predicho": null,
           "error_pct": null,
           "acierto": null
+        },
+        {
+          "fecha": "2026-09-23",
+          "precio_real": 501.6099853515625,
+          "precio_predicho": 501.32378506041044,
+          "error_pct": 0.0570563384920393,
+          "acierto": 1.0
         }
       ],
       "prediccion_manana": {
-        "fecha_prediccion": "2026-09-23",
+        "fecha_prediccion": "2026-09-24",
         "precio_predicho": 501.32378506041044,
         "cambio_diario_pct": -0.0570563384920393,
         "cambio_acumulado_pct": -0.0570563384920393,
         "tendencia": "estable"
       },
       "estado_actual": {
-        "fecha": "2026-09-22",
+        "fecha": "2026-09-23",
         "precio_actual": 501.6099853515625,
-        "rsi": 57.260193612467965,
+        "rsi": 57.26019361239657,
         "rsi_estado": "Neutral",
         "tendencia_5d_pct": 0.9032004905207166,
         "tendencia_20d_pct": 2.9344745366627394,
@@ -3109,9 +3123,9 @@
         "tamano_posicion": "0%",
         "riesgo_por_trade": "No operar",
         "volumen_estado": "Alto",
-        "macd_valor": 6.917489187608453,
+        "macd_valor": 6.917489187563035,
         "macd_estado": "Alcista",
-        "bollinger_posicion_pct": 61.6665070822428,
+        "bollinger_posicion_pct": 61.66650708220913,
         "bollinger_zona": "Neutral"
       }
     },
@@ -4637,19 +4651,26 @@
           "precio_predicho": null,
           "error_pct": null,
           "acierto": null
+        },
+        {
+          "fecha": "2026-09-23",
+          "precio_real": 227.3800048828125,
+          "precio_predicho": 227.59273462546304,
+          "error_pct": 0.09355692588720584,
+          "acierto": 1.0
         }
       ],
       "prediccion_manana": {
-        "fecha_prediccion": "2026-09-23",
+        "fecha_prediccion": "2026-09-24",
         "precio_predicho": 227.59273462546304,
         "cambio_diario_pct": 0.09355692588720584,
         "cambio_acumulado_pct": 0.09355692588720584,
         "tendencia": "estable"
       },
       "estado_actual": {
-        "fecha": "2026-09-22",
+        "fecha": "2026-09-23",
         "precio_actual": 227.3800048828125,
-        "rsi": 58.38939338360611,
+        "rsi": 58.38939339280276,
         "rsi_estado": "Neutral",
         "tendencia_5d_pct": 7.16878297833413,
         "tendencia_20d_pct": 9.187660842426336,
@@ -4666,9 +4687,9 @@
         "tamano_posicion": "0%",
         "riesgo_por_trade": "No operar",
         "volumen_estado": "Normal",
-        "macd_valor": 1.4885389081348706,
+        "macd_valor": 1.4885389095695984,
         "macd_estado": "Alcista",
-        "bollinger_posicion_pct": 80.87440179712046,
+        "bollinger_posicion_pct": 80.87440179710592,
         "bollinger_zona": "Resistencia"
       }
     },
@@ -6194,19 +6215,26 @@
           "precio_predicho": null,
           "error_pct": null,
           "acierto": null
+        },
+        {
+          "fecha": "2026-09-23",
+          "precio_real": 354.9700012207031,
+          "precio_predicho": 354.6386733034765,
+          "error_pct": 0.09333969521008655,
+          "acierto": 1.0
         }
       ],
       "prediccion_manana": {
-        "fecha_prediccion": "2026-09-23",
+        "fecha_prediccion": "2026-09-24",
         "precio_predicho": 354.6386733034765,
         "cambio_diario_pct": -0.09333969521008655,
         "cambio_acumulado_pct": -0.09333969521008655,
         "tendencia": "estable"
       },
       "estado_actual": {
-        "fecha": "2026-09-22",
+        "fecha": "2026-09-23",
         "precio_actual": 354.9700012207031,
-        "rsi": 58.8969534566963,
+        "rsi": 58.89695345730845,
         "rsi_estado": "Neutral",
         "tendencia_5d_pct": 2.8958171245379525,
         "tendencia_20d_pct": 2.0508419793674344,
@@ -6223,9 +6251,9 @@
         "tamano_posicion": "0%",
         "riesgo_por_trade": "No operar",
         "volumen_estado": "Normal",
-        "macd_valor": 0.6979401220509089,
+        "macd_valor": 0.6979401221429953,
         "macd_estado": "Alcista",
-        "bollinger_posicion_pct": 102.63578368028877,
+        "bollinger_posicion_pct": 102.63578368032427,
         "bollinger_zona": "Resistencia"
       }
     },
@@ -7751,17 +7779,24 @@
           "precio_predicho": null,
           "error_pct": null,
           "acierto": null
+        },
+        {
+          "fecha": "2026-09-23",
+          "precio_real": 258.45001220703125,
+          "precio_predicho": 258.14002536877825,
+          "error_pct": 0.11994073268012904,
+          "acierto": 1.0
         }
       ],
       "prediccion_manana": {
-        "fecha_prediccion": "2026-09-23",
+        "fecha_prediccion": "2026-09-24",
         "precio_predicho": 258.14002536877825,
         "cambio_diario_pct": -0.11994073268012904,
         "cambio_acumulado_pct": -0.11994073268012904,
         "tendencia": "estable"
       },
       "estado_actual": {
-        "fecha": "2026-09-22",
+        "fecha": "2026-09-23",
         "precio_actual": 258.45001220703125,
         "rsi": 52.69019952404597,
         "rsi_estado": "Neutral",
@@ -9308,19 +9343,26 @@
           "precio_predicho": null,
           "error_pct": null,
           "acierto": null
+        },
+        {
+          "fecha": "2026-09-23",
+          "precio_real": 741.25,
+          "precio_predicho": 742.7721405803328,
+          "error_pct": 0.20534780173123812,
+          "acierto": 1.0
         }
       ],
       "prediccion_manana": {
-        "fecha_prediccion": "2026-09-23",
+        "fecha_prediccion": "2026-09-24",
         "precio_predicho": 742.7721405803328,
         "cambio_diario_pct": 0.20534780173123812,
         "cambio_acumulado_pct": 0.20534780173123812,
         "tendencia": "sube"
       },
       "estado_actual": {
-        "fecha": "2026-09-22",
+        "fecha": "2026-09-23",
         "precio_actual": 741.25,
-        "rsi": 77.87283462657406,
+        "rsi": 77.87283457562506,
         "rsi_estado": "Sobrecompra",
         "tendencia_5d_pct": 10.681989870543346,
         "tendencia_20d_pct": 32.702751666837486,
@@ -9337,9 +9379,9 @@
         "tamano_posicion": "Moderada",
         "riesgo_por_trade": "2% del capital",
         "volumen_estado": "Alto",
-        "macd_valor": 29.846707592347343,
+        "macd_valor": 29.846707614369052,
         "macd_estado": "Alcista",
-        "bollinger_posicion_pct": 110.28871072334165,
+        "bollinger_posicion_pct": 110.28871072334074,
         "bollinger_zona": "Resistencia"
       }
     },
@@ -10865,19 +10907,26 @@
           "precio_predicho": null,
           "error_pct": null,
           "acierto": null
+        },
+        {
+          "fecha": "2026-09-23",
+          "precio_real": 445.1400146484375,
+          "precio_predicho": 445.80253429401415,
+          "error_pct": 0.14883399015473722,
+          "acierto": 1.0
         }
       ],
       "prediccion_manana": {
-        "fecha_prediccion": "2026-09-23",
+        "fecha_prediccion": "2026-09-24",
         "precio_predicho": 445.80253429401415,
         "cambio_diario_pct": 0.14883399015473722,
         "cambio_acumulado_pct": 0.14883399015473722,
         "tendencia": "estable"
       },
       "estado_actual": {
-        "fecha": "2026-09-22",
+        "fecha": "2026-09-23",
         "precio_actual": 445.1400146484375,
-        "rsi": 61.931043095773845,
+        "rsi": 61.93104299949281,
         "rsi_estado": "Neutral",
         "tendencia_5d_pct": 7.875332637255994,
         "tendencia_20d_pct": 8.830147843116421,
@@ -10894,9 +10943,9 @@
         "tamano_posicion": "Moderada",
         "riesgo_por_trade": "2% del capital",
         "volumen_estado": "Normal",
-        "macd_valor": 4.060782858801701,
+        "macd_valor": 4.060782860856818,
         "macd_estado": "Alcista",
-        "bollinger_posicion_pct": 106.23500898974628,
+        "bollinger_posicion_pct": 106.23500898975288,
         "bollinger_zona": "Resistencia"
       }
     },
@@ -12422,17 +12471,24 @@
           "precio_predicho": null,
           "error_pct": null,
           "acierto": null
+        },
+        {
+          "fecha": "2026-09-23",
+          "precio_real": 375.29998779296875,
+          "precio_predicho": 375.72055826457836,
+          "error_pct": 0.11206247942688777,
+          "acierto": 1.0
         }
       ],
       "prediccion_manana": {
-        "fecha_prediccion": "2026-09-23",
+        "fecha_prediccion": "2026-09-24",
         "precio_predicho": 375.72055826457836,
         "cambio_diario_pct": 0.11206247942688777,
         "cambio_acumulado_pct": 0.11206247942688777,
         "tendencia": "estable"
       },
       "estado_actual": {
-        "fecha": "2026-09-22",
+        "fecha": "2026-09-23",
         "precio_actual": 375.29998779296875,
         "rsi": 58.61419008577867,
         "rsi_estado": "Neutral",
@@ -13979,19 +14035,26 @@
           "precio_predicho": null,
           "error_pct": null,
           "acierto": null
+        },
+        {
+          "fecha": "2026-09-23",
+          "precio_real": 362.6600036621094,
+          "precio_predicho": 362.5931922543349,
+          "error_pct": 0.018422601637849374,
+          "acierto": 1.0
         }
       ],
       "prediccion_manana": {
-        "fecha_prediccion": "2026-09-23",
+        "fecha_prediccion": "2026-09-24",
         "precio_predicho": 362.5931922543349,
         "cambio_diario_pct": -0.018422601637849374,
         "cambio_acumulado_pct": -0.018422601637849374,
         "tendencia": "estable"
       },
       "estado_actual": {
-        "fecha": "2026-09-22",
+        "fecha": "2026-09-23",
         "precio_actual": 362.6600036621094,
-        "rsi": 48.99988662918213,
+        "rsi": 48.99988662905455,
         "rsi_estado": "Neutral",
         "tendencia_5d_pct": 7.088866965029802,
         "tendencia_20d_pct": 1.2711513420279381,
@@ -14008,9 +14071,9 @@
         "tamano_posicion": "Moderada",
         "riesgo_por_trade": "2% del capital",
         "volumen_estado": "Normal",
-        "macd_valor": -8.13569227928025,
+        "macd_valor": -8.135692279390923,
         "macd_estado": "Bajista",
-        "bollinger_posicion_pct": 61.076011695574685,
+        "bollinger_posicion_pct": 61.07601169557589,
         "bollinger_zona": "Neutral"
       }
     },
@@ -15536,17 +15599,24 @@
           "precio_predicho": null,
           "error_pct": null,
           "acierto": null
+        },
+        {
+          "fecha": "2026-09-23",
+          "precio_real": 121.77999877929688,
+          "precio_predicho": 122.45464985615,
+          "error_pct": 0.5539916929017225,
+          "acierto": 1.0
         }
       ],
       "prediccion_manana": {
-        "fecha_prediccion": "2026-09-23",
+        "fecha_prediccion": "2026-09-24",
         "precio_predicho": 122.45464985615,
         "cambio_diario_pct": 0.5539916929017225,
         "cambio_acumulado_pct": 0.5539916929017225,
         "tendencia": "sube"
       },
       "estado_actual": {
-        "fecha": "2026-09-22",
+        "fecha": "2026-09-23",
         "precio_actual": 121.77999877929688,
         "rsi": 70.91595084419505,
         "rsi_estado": "Sobrecompra",
@@ -15567,7 +15637,7 @@
         "volumen_estado": "Alto",
         "macd_valor": 3.6863965033783757,
         "macd_estado": "Alcista",
-        "bollinger_posicion_pct": 117.3772765461282,
+        "bollinger_posicion_pct": 117.37727654612455,
         "bollinger_zona": "Resistencia"
       }
     }
